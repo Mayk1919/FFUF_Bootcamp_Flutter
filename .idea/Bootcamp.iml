@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/April18/build" />
+      <excludeFolder url="file://$MODULE_DIR$/April18/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/April18/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/April21/build" />
+      <excludeFolder url="file://$MODULE_DIR$/April21/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/April21/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/April22/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/April22/build" />
+      <excludeFolder url="file://$MODULE_DIR$/April22/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/April19/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/April19/build" />
+      <excludeFolder url="file://$MODULE_DIR$/April19/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/April25/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/April25/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/April25/build" />
+      <excludeFolder url="file://$MODULE_DIR$/April20/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/April20/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/April20/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
