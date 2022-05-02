@@ -1,8 +1,10 @@
-import 'package:capstone_dart/adminDashboard.dart';
+import 'package:capstone_dart/adminDashboard.dart' hide main;
 import 'package:capstone_dart/employee.dart';
 import 'package:capstone_dart/data.dart';
+import 'package:capstone_dart/main.dart';
 import 'package:capstone_dart/options.dart';
 import 'dart:io';
+import 'package:intl/intl.dart';
 
 class Admin extends Employee {
   Admin({
@@ -78,8 +80,7 @@ class Admin extends Employee {
           print('Employee Department: ${employeeList[key]['department']}');
           print('Request ID : ${key2}');
           print('Date : ${employeeList[key]['leaveStatus'][key2]['date']}');
-          print(
-              'Reason : ${employeeList[key]['leaveStatus'][key2]['reason']}\n');
+          print('Reason : ${employeeList[key]['leaveStatus'][key2]['reason']}\n');
           employeeIds.add(employeeList[key]['employeeId']);
         }
       });
@@ -165,6 +166,110 @@ class Admin extends Employee {
   }
 
   void viewAllLeaves(){
-    
+
+    String leaveMonth = '';
+    print('########## EMPLOYEE LEAVES ${leaveMonth != '' ?'FOR THE MONTH OF $leaveMonth ' :''}##########\n');
+  employeeList.forEach((key, value) {
+    (employeeList[key]['leaveStatus']).forEach((key2, value2) {
+      print('Employee ID: ${employeeList[key]['employeeId']}');
+      print('Employee First Name: ${employeeList[key]['firstName']}');
+      print('Employee Last Name: ${employeeList[key]['lastName']}');
+      print('Employee Department: ${employeeList[key]['department']}');
+      print('Request ID : ${key2}');
+      print('Date : ${employeeList[key]['leaveStatus'][key2]['date']}');
+      print('Reason : ${employeeList[key]['leaveStatus'][key2]['reason']}\n');
+
+    });
+  });
+
+    String input = '';
+    print('\nWhat do you want to do?');
+    print('[1] Filter the Leave View');
+    print('[2] Dashboard');
+    print('[3] Log out');
+
+    while (input == '') {
+      input = stdin.readLineSync()!;
+      switch (input) {
+        case '1':
+          {String filterInput = '';
+            print('\nWhat do you want to filter?');
+            print('[1] Filter by Month');
+            print('[2] Filter by Year');
+            print('[3] Filter by Name');
+            print('[4] Filter by Employee ID');
+            print('[5] Filter by Approval');
+            print('[6] Filter by Status');
+            print('[7] Dashboard');
+            print('[8] Log out');
+          while (filterInput == '') {
+            filterInput = stdin.readLineSync()!;
+            switch (filterInput) {
+              case '1':{
+
+              }
+              break;
+              case '2':{
+
+              }
+              break;
+              case '3':{
+
+              }
+              break;
+              case '4':{
+
+              }
+              break;
+              case '5':{
+
+              }
+              break;
+              case '6':{
+
+              }
+              break;
+              case '7':{
+
+              }
+              break;
+              case '8':{
+
+              }
+              break;
+              default:{
+                print('Please enter a valid value');
+                filterInput = '';
+              }
+
+            }
+          }
+
+          }
+          break;
+        case '2':{
+          adminDisplay(employeeId);
+        }
+        break;
+        case '3':{
+          main();
+          admin.isLoggedIn = false;
+        }
+        break;
+        default:
+          {
+            print('Please enter a valid value');
+            input = '';
+          }
+      }
+    }
+
+
+
+
+
   }
+
+
+
 }

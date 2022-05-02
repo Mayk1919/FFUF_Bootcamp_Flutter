@@ -14,21 +14,17 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.blue,
         appBar: AppBar(
           title: Text('I am Poor'),
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.red,
           centerTitle: true,
         ),
         body: const Center(
           child: SizedBox(
-
+            height: 500,
+            width: 500,
             child: Image(
-              height: 800,
-              width:800,
+              fit: BoxFit.cover,
               image: AssetImage('images/patrick.gif'),
-
-
-
             ),
-
           ),
         ),
       ),

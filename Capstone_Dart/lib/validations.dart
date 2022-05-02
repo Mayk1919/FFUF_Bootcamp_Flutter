@@ -145,6 +145,12 @@ int findEmployeeId(String email){
   return validatedInput;
 }
 
+bool isEmployeeAdmin(id){
+  bool validatedInput = false;
+  employeeList[id]['isAdmin'] == true ? validatedInput = true : validatedInput = false ;
+  return validatedInput;
+}
+
 String validateLoginEmailAddress() {
   String input = '';
   bool isEmailRegistered = false;
@@ -181,10 +187,11 @@ String validateLoginEmailAddress() {
   return input;
 }
 
-String validateLoginPassword(String email) {
+bool validateLoginPassword(String email) {
+  bool isLoginPasswordCorrect = false;
   String passwordInput = '';
   String confirmPasswordInput = '';
-  int employeeId = findEmployeeId(email);
+
   bool isPasswordMatch = false;
   while (isPasswordMatch == false) {
 
@@ -194,19 +201,11 @@ String validateLoginPassword(String email) {
     confirmPasswordInput = validateConfirmPasswordInput(passwordInput);
     isPasswordMatch = isPasswordCorrect(passwordInput,email);
     if(isPasswordMatch == true){
-      print('You have Successfully Logged In\n');
-      displayProfile(employeeId);
-    }
-
-    if(isPasswordMatch == false){
-      print('You have entered an incorrect password\n');
-      print('Forgot your Password?');
-      print('[1] Update Password');
-      print('[2] Enter another Password');
-      print('[3] Quit');
-      loginPasswordOption(employeeId);
+      isLoginPasswordCorrect =true;
     }
 
   }
-  return passwordInput;
+  return isLoginPasswordCorrect;
 }
+
+

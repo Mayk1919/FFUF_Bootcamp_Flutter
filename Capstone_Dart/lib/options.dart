@@ -243,7 +243,12 @@ void loginEmailOption() {
   }
 }
 
-void loginPasswordOption(int id) {
+void loginPasswordOption(int id,String email) {
+  print('You have entered an incorrect password\n');
+  print('Forgot your Password?');
+  print('[1] Update Password');
+  print('[2] Enter another Password');
+  print('[3] Quit');
   String input = '';
   while (input == '') {
     input = stdin.readLineSync()!;
@@ -255,7 +260,7 @@ void loginPasswordOption(int id) {
         break;
       case '2':
         {
-          print('');
+          validateLoginPassword(email);
         }
         break;
       case '3':
