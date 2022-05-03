@@ -1,5 +1,6 @@
 import 'package:capstone_dart/data.dart';
 import 'package:capstone_dart/main.dart';
+
 void saveNewEmployee({
   required String firstName,
   required String lastName,
@@ -10,10 +11,9 @@ void saveNewEmployee({
   required String email,
   required String department,
   required String password,
-
-}){
+}) {
   int count = 0;
-  int lastId = employeeList.keys.last+1;
+  int lastId = employeeList.keys.last + 1;
   List<String> employeeListKeys = [
     'employeeId',
     'firstName',
@@ -39,12 +39,11 @@ void saveNewEmployee({
     password,
   ];
 
-  employeeList[lastId]=employeeList[0];
+  employeeList[lastId] = employeeList[0];
 
   employeeListKeys.forEach((key) {
     employeeList[lastId][key] = employeeListValues[count];
-    count +=1;
+    count += 1;
   });
   main();
 }
-

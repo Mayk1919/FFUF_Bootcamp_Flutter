@@ -1,25 +1,4 @@
 Map<int, dynamic> employeeList = {
-  0: {
-    'employeeId': 0,
-    'firstName': '',
-    'lastName': '',
-    'address': '',
-    'gender': '',
-    'mobileNumber': 0,
-    'email': '',
-    'birthday': '',
-    'department': '',
-    'password': '',
-    'isAdmin': false,
-    'isLoggedIn': false,
-    'salaryRate': 0.0,
-    'totalHoursWorked': 0.0,
-    'workRecords':{},
-    'totalLeaves': 0,
-    'appliedLeaves': 0,
-    'leaveStatus':{},
-    'jobOrders': {},
-  },
   1: {
     'employeeId': 1,
     'firstName': 'Juan',
@@ -35,68 +14,48 @@ Map<int, dynamic> employeeList = {
     'isLoggedIn': false,
     'salaryRate': 20000.0,
     'totalHoursWorked': 40.0,
-    'workRecords':{
-      1:{
-        'date':'2022-04-25',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      2:{
-        'date':'2022-04-26',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      3:{
-        'date':'2022-04-27',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      4:{
-        'date':'2022-04-28',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      5:{
-        'date':'2022-04-29',
-        'start':'08:00',
-        'end':'17:00'
-      },
+    'workRecords': {
+      1: {'date': '2022-04-25', 'start': '08:00', 'end': '17:00'},
+      2: {'date': '2022-04-26', 'start': '08:00', 'end': '17:00'},
+      3: {'date': '2022-04-27', 'start': '08:00', 'end': '17:00'},
+      4: {'date': '2022-04-28', 'start': '08:00', 'end': '17:00'},
+      5: {'date': '2022-04-29', 'start': '08:00', 'end': '17:00'},
     },
     'totalLeaves': 14,
     'appliedLeaves': 1,
-    'leaveStatus':{
-      1:{
-        'date':'2022-04-29',
+    'leaveStatus': {
+      1: {
+        'date': '2022-04-29',
         'forApproval': false,
         'isApprove': true,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
-      2:{
-        'date':'2022-04-27',
+      2: {
+        'date': '2022-04-27',
         'forApproval': true,
         'isApprove': false,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
-      3:{
-        'date':'2022-05-27',
+      3: {
+        'date': '2022-05-27',
         'forApproval': true,
         'isApprove': false,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
-      4:{
-        'date':'2023-05-27',
+      4: {
+        'date': '2023-05-27',
         'forApproval': true,
         'isApprove': false,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
     },
     'jobOrders': {
       1: {
-        'jobOrderId':1,
+        'jobOrderId': 1,
         'job': 'Preventive Maintenance of Generator',
         'jobPostedDate': '2022-04-26',
         'jobDeadline': '2022-04-28',
@@ -105,7 +64,7 @@ Map<int, dynamic> employeeList = {
         'comment': ''
       },
       2: {
-        'jobOrderId':2,
+        'jobOrderId': 2,
         'job': 'Preventive Maintenance of Compressor',
         'jobPostedDate': '2022-04-22',
         'jobDeadline': '2022-04-26',
@@ -130,54 +89,34 @@ Map<int, dynamic> employeeList = {
     'isLoggedIn': false,
     'salaryRate': 25000.0,
     'totalHoursWorked': 43.0,
-    'workRecords':{
-      1:{
-        'date':'2022-04-25',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      2:{
-        'date':'2022-04-26',
-        'start':'08:00',
-        'end':'19:00'
-      },
-      3:{
-        'date':'2022-04-27',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      4:{
-        'date':'2022-04-28',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      5:{
-        'date':'2022-04-29',
-        'start':'08:00',
-        'end':'18:00'
-      },
+    'workRecords': {
+      1: {'date': '2022-04-25', 'start': '08:00', 'end': '17:00'},
+      2: {'date': '2022-04-26', 'start': '08:00', 'end': '19:00'},
+      3: {'date': '2022-04-27', 'start': '08:00', 'end': '17:00'},
+      4: {'date': '2022-04-28', 'start': '08:00', 'end': '17:00'},
+      5: {'date': '2022-04-29', 'start': '08:00', 'end': '18:00'},
     },
     'totalLeaves': 14,
     'appliedLeaves': 1,
-    'leaveStatus':{
-      1:{
-        'date':'2022-04-30',
+    'leaveStatus': {
+      1: {
+        'date': '2022-04-30',
         'forApproval': false,
         'isApprove': true,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
-      2:{
-        'date':'2022-04-26',
+      2: {
+        'date': '2022-04-26',
         'forApproval': false,
         'isApprove': false,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
     },
     'jobOrders': {
       1: {
-        'jobOrderId':1,
+        'jobOrderId': 1,
         'job': 'Employee Salary',
         'jobPostedDate': '2022-04-26',
         'jobDeadline': '2022-04-30',
@@ -186,7 +125,7 @@ Map<int, dynamic> employeeList = {
         'comment': ''
       },
       2: {
-        'jobOrderId':2,
+        'jobOrderId': 2,
         'job': 'Prepare monthly report',
         'jobPostedDate': '2022-04-22',
         'jobDeadline': '2022-04-30',
@@ -211,61 +150,41 @@ Map<int, dynamic> employeeList = {
     'isLoggedIn': false,
     'salaryRate': 22000.0,
     'totalHoursWorked': 37.5,
-    'workRecords':{
-      1:{
-        'date':'2022-04-25',
-        'start':'09:00',
-        'end':'17:00'
-      },
-      2:{
-        'date':'2022-04-26',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      3:{
-        'date':'2022-04-27',
-        'start':'08:00',
-        'end':'17:00'
-      },
-      4:{
-        'date':'2022-04-28',
-        'start':'08:30',
-        'end':'17:00'
-      },
-      5:{
-        'date':'2022-04-29',
-        'start':'09:00',
-        'end':'17:00'
-      },
+    'workRecords': {
+      1: {'date': '2022-04-25', 'start': '09:00', 'end': '17:00'},
+      2: {'date': '2022-04-26', 'start': '08:00', 'end': '17:00'},
+      3: {'date': '2022-04-27', 'start': '08:00', 'end': '17:00'},
+      4: {'date': '2022-04-28', 'start': '08:30', 'end': '17:00'},
+      5: {'date': '2022-04-29', 'start': '09:00', 'end': '17:00'},
     },
     'totalLeaves': 14,
     'appliedLeaves': 1,
-    'leaveStatus':{
-      1:{
-        'date':'2022-04-30',
+    'leaveStatus': {
+      1: {
+        'date': '2022-04-30',
         'forApproval': false,
         'isApprove': true,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
-      2:{
-        'date':'2022-04-26',
+      2: {
+        'date': '2022-04-26',
         'forApproval': true,
         'isApprove': false,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
-      3:{
-        'date':'2022-05-26',
+      3: {
+        'date': '2022-05-26',
         'forApproval': true,
         'isApprove': false,
         'reason': 'Vacation',
-        'comment':'',
+        'comment': '',
       },
     },
     'jobOrders': {
       1: {
-        'jobOrderId':1,
+        'jobOrderId': 1,
         'job': 'Update Employee jobs orders',
         'jobPostedDate': '2022-04-26',
         'jobDeadline': '2022-04-30',
@@ -274,7 +193,7 @@ Map<int, dynamic> employeeList = {
         'comment': 'Completed'
       },
       2: {
-        'jobOrderId':2,
+        'jobOrderId': 2,
         'job': 'Prepare monthly report',
         'jobPostedDate': '2022-04-22',
         'jobDeadline': '2022-04-30',
@@ -283,7 +202,7 @@ Map<int, dynamic> employeeList = {
         'comment': ''
       },
       3: {
-        'jobOrderId':2,
+        'jobOrderId': 3,
         'job': 'Prepare monthly report',
         'jobPostedDate': '2022-05-22',
         'jobDeadline': '2022-05-30',

@@ -48,6 +48,3 @@ void displayProfile(int id) {
 }
 
 
-void main(){
-  displayProfile(3);
-}

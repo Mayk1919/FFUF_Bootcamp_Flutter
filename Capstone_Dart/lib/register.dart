@@ -1,7 +1,7 @@
 import 'package:capstone_dart/validations.dart';
 import 'package:capstone_dart/options.dart';
 
-void register(){
+void register() {
   print('########## REGISTER ##########');
   print('');
   print('Enter First Name: ');
@@ -39,15 +39,14 @@ void register(){
   print('[2] Incorrect. Enter new values');
   print('[3] Quit');
   registerOption(
-      firstName: firstName,
-      lastName: lastName,
-      address: address,
-      birthday: birthday,
-      gender: gender,
-      mobileNumber: mobileNumber,
-      email: email,
-      department: department,
-      password: password,
+    firstName: firstName,
+    lastName: lastName,
+    address: address,
+    birthday: birthday,
+    gender: gender,
+    mobileNumber: mobileNumber,
+    email: email,
+    department: department,
+    password: password,
   );
-
 }

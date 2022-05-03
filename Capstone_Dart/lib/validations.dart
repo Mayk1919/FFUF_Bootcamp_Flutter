@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:capstone_dart/data.dart';
 import 'package:capstone_dart/options.dart';
-import 'package:capstone_dart/profileDashboard.dart';
 
 String validateStringInput() {
   String validatedInput = '';
@@ -27,20 +26,19 @@ String validateDateInput() {
   return validatedInput;
 }
 
-int validateYearInput(){
+int validateYearInput() {
   String input;
-  int yearInput =0;
+  int yearInput = 0;
   int? inputCheck;
   print('Enter the year?');
 
-  while(yearInput <= 1900){
+  while (yearInput <= 1900) {
     input = stdin.readLineSync()!;
     inputCheck = int.tryParse(input);
-    if(inputCheck != null){
-
+    if (inputCheck != null) {
       yearInput = inputCheck;
     }
-    if(yearInput <= 1900){
+    if (yearInput <= 1900) {
       print('Enter an valid Value');
       yearInput = 0;
     }
@@ -49,19 +47,19 @@ int validateYearInput(){
   return yearInput;
 }
 
-int validateMonthInput(){
+int validateMonthInput() {
   String input;
-  int monthInput =0;
+  int monthInput = 0;
   int? inputCheck;
   print('Enter the month value [1-12]?');
 
-  while(monthInput < 1 || monthInput > 12){
+  while (monthInput < 1 || monthInput > 12) {
     input = stdin.readLineSync()!;
     inputCheck = int.tryParse(input);
-    if(inputCheck != null){
+    if (inputCheck != null) {
       monthInput = inputCheck;
     }
-    if(monthInput < 1 || monthInput > 12){
+    if (monthInput < 1 || monthInput > 12) {
       print('Enter an valid Value');
       monthInput = 0;
     }
@@ -94,6 +92,42 @@ int validateIntInput() {
     validatedInput = int.tryParse(stdin.readLineSync()!);
     if (validatedInput == null) {
       print('Please enter a valid integer');
+    }
+  }
+  return validatedInput;
+}
+
+bool validateValidEmployeeId(int id) {
+  bool isValidEmployeeId = false;
+  employeeList.forEach((key, value) {
+    if (employeeList[key]['employeeId'] == id) {
+      isValidEmployeeId = true;
+    }
+  });
+  return isValidEmployeeId;
+}
+
+double validateDoubleInput() {
+  double? validatedInput;
+  while (validatedInput == null) {
+    validatedInput = double.tryParse(stdin.readLineSync()!);
+    if (validatedInput == null) {
+      print('Please enter a valid double');
+    }
+  }
+  return validatedInput;
+}
+
+bool validateBoolInput() {
+  late bool validatedInput;
+  String input = '';
+  while (input == '') {
+    input = stdin.readLineSync()!.toLowerCase();
+    if (input != 'true' && input != 'false') {
+      print('Please enter "true" or "false');
+      input = '';
+    } else {
+      validatedInput = input == 'true';
     }
   }
   return validatedInput;
@@ -164,11 +198,11 @@ String validateConfirmPasswordInput(String password) {
   return validatedInput;
 }
 
-bool isPasswordCorrect(String password,String email){
+bool isPasswordCorrect(String password, String email) {
   bool validatedInput = false;
   employeeList.forEach((key, value) {
     if (employeeList[key]['email'] == email) {
-      if(employeeList[key]['password'] == password) {
+      if (employeeList[key]['password'] == password) {
         validatedInput = true;
       }
     }
@@ -176,11 +210,11 @@ bool isPasswordCorrect(String password,String email){
   return validatedInput;
 }
 
-
-
-bool isEmployeeAdmin(id){
+bool isEmployeeAdmin(id) {
   bool validatedInput = false;
-  employeeList[id]['isAdmin'] == true ? validatedInput = true : validatedInput = false ;
+  employeeList[id]['isAdmin'] == true
+      ? validatedInput = true
+      : validatedInput = false;
   return validatedInput;
 }
 
@@ -205,9 +239,7 @@ String validateLoginEmailAddress() {
 
     if (isEmailInputFormatValid == false) {
       print('Invalid email address\n');
-    }
-
-    else if (isEmailRegistered == false) {
+    } else if (isEmailRegistered == false) {
       print('\nThe email you entered cannot be found\n');
       print('Not yet Registered?');
       print('[1] Register');
@@ -227,18 +259,14 @@ bool validateLoginPassword(String email) {
 
   bool isPasswordMatch = false;
   while (isPasswordMatch == false) {
-
     print('Enter your Password:');
     passwordInput = validatePasswordInput();
     print('Confirm your Password:');
     confirmPasswordInput = validateConfirmPasswordInput(passwordInput);
-    isPasswordMatch = isPasswordCorrect(passwordInput,email);
-    if(isPasswordMatch == true){
-      isLoginPasswordCorrect =true;
+    isPasswordMatch = isPasswordCorrect(passwordInput, email);
+    if (isPasswordMatch == true) {
+      isLoginPasswordCorrect = true;
     }
-
   }
   return isLoginPasswordCorrect;
 }
-
-

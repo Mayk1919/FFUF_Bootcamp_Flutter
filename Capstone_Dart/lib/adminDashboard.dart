@@ -1,11 +1,12 @@
 import 'package:capstone_dart/admin.dart';
 import 'package:capstone_dart/data.dart';
 import 'package:capstone_dart/options.dart';
-import 'package:capstone_dart/employee.dart';
 import 'package:capstone_dart/employeeRecord.dart';
+
 late Admin admin;
+
 void adminDisplay(int id) {
-  Map<String,dynamic> employeeProfile = employeeList[id];
+  Map<String, dynamic> employeeProfile = employeeList[id];
 
   admin = Admin(
     employeeId: employeeProfile['employeeId'],
@@ -45,14 +46,4 @@ void adminDisplay(int id) {
   print('Number of job orders in progress: $jobsInProgress');
 
   adminDashboardOption(id);
-
-
-
-
-}
-
-
-
-void main() {
-  adminDisplay(3);
 }

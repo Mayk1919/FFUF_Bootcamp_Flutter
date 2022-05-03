@@ -55,7 +55,7 @@ class Employee {
   void viewJobOrders() {
     print('########## JOB ORDERS ##########');
     print('');
-    if (jobOrders.length == 0) {
+    if (jobOrders.isEmpty) {
       print('No Records Found');
     } else {
       jobOrders.forEach((key, value) {
@@ -69,7 +69,7 @@ class Employee {
   void viewHoursWorked() {
     print('########## HOURS WORKED ##########');
     print('');
-    if (workRecords.length == 0) {
+    if (workRecords.isEmpty) {
       print('No Records Found');
     } else {
       workRecords.forEach((key, value) {
@@ -243,15 +243,15 @@ class Employee {
     }
   }
 
-  void changePassword(){
+  void changePassword() {
     String input = '';
     String newInput = '';
     String confirmNewInput = '';
     print('########## CHANGE PASSWORD ##########');
     print('Enter your old password');
-    while(input != password){
+    while (input != password) {
       input = validatePasswordInput();
-      if(input != password){
+      if (input != password) {
         print('Please enter the correct password');
       }
     }
@@ -260,8 +260,7 @@ class Employee {
     print('Confirm new password');
     confirmNewInput = validateConfirmPasswordInput(newInput);
     print('Your new password has been saved');
-    employeeList[employeeId]['password']=newInput;
+    employeeList[employeeId]['password'] = newInput;
     displayProfile(employeeId);
-
   }
 }
