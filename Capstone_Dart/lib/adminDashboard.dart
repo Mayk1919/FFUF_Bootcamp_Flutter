@@ -30,7 +30,7 @@ void adminDisplay(int id) {
   );
 
   int leavesForApproval = admin.leavesForApprovalCount();
-  int jobsInProgress = admin.jobInProgressCount();
+  int jobsInProgress = admin.allJobInProgressCount();
   int employeeCounter = employeeCount();
 
   print(
@@ -43,7 +43,6 @@ void adminDisplay(int id) {
   print('Total number of employees: $employeeCounter');
   print('Number of leaves for approval: $leavesForApproval');
   print('Number of job orders in progress: $jobsInProgress');
-
 
   adminDashboardOption(id);
 

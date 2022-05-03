@@ -1,6 +1,7 @@
 import 'package:capstone_dart/data.dart';
 import 'package:capstone_dart/options.dart';
 import 'package:capstone_dart/employee.dart';
+import 'package:capstone_dart/filter.dart';
 late Employee employee;
 void displayProfile(int id) {
   Map<String,dynamic> employeeProfile = employeeList[id];
@@ -41,12 +42,12 @@ void displayProfile(int id) {
   print('Salary: ${employee.salaryRate}');
   print('Available Leaves: ${employee.totalLeaves}');
   print('Total Work Hours: ${employee.totalHoursWorked}');
-  print('Job Orders in Progress: 10');
-
+  print('Job Orders in Progress: ${employeeCountJobInProgress(employee.employeeId)}');
 
    dashboardOption(id);
 }
 
-void main() {
+
+void main(){
   displayProfile(3);
 }

@@ -1,5 +1,7 @@
+import 'package:capstone_dart/profileDashboard.dart';
 import 'package:capstone_dart/validations.dart';
-import 'package:capstone_dart/employeePage.dart';
+import 'package:capstone_dart/profileDashboard.dart';
+import 'package:capstone_dart/filter.dart';
 import 'package:capstone_dart/options.dart';
 void login() {
 
@@ -9,7 +11,7 @@ void login() {
   print('########## LOGIN ##########');
   if(passwordInputCorrect){
     print('You have Successfully Logged In\n');
-    employeePage();
+    displayProfile(employeeId);
   }
   else {
     loginPasswordOption(employeeId,emailAddressInput);

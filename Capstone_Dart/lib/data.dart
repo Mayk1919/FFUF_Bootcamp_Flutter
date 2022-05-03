@@ -79,6 +79,20 @@ Map<int, dynamic> employeeList = {
         'reason': 'Vacation',
         'comment':'',
       },
+      3:{
+        'date':'2022-05-27',
+        'forApproval': true,
+        'isApprove': false,
+        'reason': 'Vacation',
+        'comment':'',
+      },
+      4:{
+        'date':'2023-05-27',
+        'forApproval': true,
+        'isApprove': false,
+        'reason': 'Vacation',
+        'comment':'',
+      },
     },
     'jobOrders': {
       1: {
@@ -241,6 +255,13 @@ Map<int, dynamic> employeeList = {
         'reason': 'Vacation',
         'comment':'',
       },
+      3:{
+        'date':'2022-05-26',
+        'forApproval': true,
+        'isApprove': false,
+        'reason': 'Vacation',
+        'comment':'',
+      },
     },
     'jobOrders': {
       1: {
@@ -257,6 +278,15 @@ Map<int, dynamic> employeeList = {
         'job': 'Prepare monthly report',
         'jobPostedDate': '2022-04-22',
         'jobDeadline': '2022-04-30',
+        'jobClosedDate': '',
+        'status': 'In Progress',
+        'comment': ''
+      },
+      3: {
+        'jobOrderId':2,
+        'job': 'Prepare monthly report',
+        'jobPostedDate': '2022-05-22',
+        'jobDeadline': '2022-05-30',
         'jobClosedDate': '',
         'status': 'In Progress',
         'comment': ''

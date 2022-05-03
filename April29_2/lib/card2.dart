@@ -12,9 +12,17 @@ class Card2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        child: Stack(children: [
+        child: Stack(
+            children: [
+          Positioned(
+            child: CircleAvatar(
+              backgroundImage: AssetImage('images/pic4.jpg'),
+
+          ),
+          ),
           Positioned(
             child: Text(category),
+            top: 40,
           ),
           Positioned(
             child: Text(
@@ -23,7 +31,7 @@ class Card2 extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            top: 20,
+            top: 60,
           ),
           Positioned(
             child: Text(

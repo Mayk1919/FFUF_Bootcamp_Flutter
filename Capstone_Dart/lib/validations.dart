@@ -27,6 +27,49 @@ String validateDateInput() {
   return validatedInput;
 }
 
+int validateYearInput(){
+  String input;
+  int yearInput =0;
+  int? inputCheck;
+  print('Enter the year?');
+
+  while(yearInput <= 1900){
+    input = stdin.readLineSync()!;
+    inputCheck = int.tryParse(input);
+    if(inputCheck != null){
+
+      yearInput = inputCheck;
+    }
+    if(yearInput <= 1900){
+      print('Enter an valid Value');
+      yearInput = 0;
+    }
+  }
+
+  return yearInput;
+}
+
+int validateMonthInput(){
+  String input;
+  int monthInput =0;
+  int? inputCheck;
+  print('Enter the month value [1-12]?');
+
+  while(monthInput < 1 || monthInput > 12){
+    input = stdin.readLineSync()!;
+    inputCheck = int.tryParse(input);
+    if(inputCheck != null){
+      monthInput = inputCheck;
+    }
+    if(monthInput < 1 || monthInput > 12){
+      print('Enter an valid Value');
+      monthInput = 0;
+    }
+  }
+
+  return monthInput;
+}
+
 String validateGenderInput() {
   String validatedInput = '';
   while (validatedInput == '' ||
@@ -133,17 +176,7 @@ bool isPasswordCorrect(String password,String email){
   return validatedInput;
 }
 
-int findEmployeeId(String email){
-  int validatedInput = 0;
-  employeeList.forEach((key, value) {
-    if (employeeList[key]['email'] == email) {
 
-        validatedInput = employeeList[key]['employeeId'];
-
-    }
-  });
-  return validatedInput;
-}
 
 bool isEmployeeAdmin(id){
   bool validatedInput = false;
