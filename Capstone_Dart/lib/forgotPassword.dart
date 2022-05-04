@@ -10,5 +10,6 @@ void forgetPassword(int id) {
   String confirmPassword = validateConfirmPasswordInput(password);
 
   employeeList[id]['password'] = password;
+  print('You have Successfully updated your password');
   login();
 }
