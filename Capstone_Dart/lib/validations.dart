@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:capstone_dart/data.dart';
 import 'package:capstone_dart/options.dart';
+import 'package:capstone_dart/filter.dart';
 
 String validateStringInput() {
   String validatedInput = '';
@@ -204,6 +205,10 @@ bool isPasswordCorrect(String password, String email) {
     if (employeeList[key]['email'] == email) {
       if (employeeList[key]['password'] == password) {
         validatedInput = true;
+      }
+      else{
+        print('Password not correct');
+        loginPasswordOption(findEmployeeId(email),email);
       }
     }
   });

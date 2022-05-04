@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:capstone_dart/data.dart';
+import 'package:capstone_dart/login.dart';
 import 'package:capstone_dart/register.dart';
 import 'package:capstone_dart/saveNewEmployee.dart';
 import 'package:capstone_dart/validations.dart';
@@ -8,6 +9,7 @@ import 'package:capstone_dart/profileDashboard.dart';
 import 'package:capstone_dart/main.dart';
 import 'package:capstone_dart/adminDashboard.dart';
 import 'package:capstone_dart/filter.dart';
+import 'package:capstone_dart/forgotPassword.dart';
 
 void dashboardOption(int id) {
   String input = '';
@@ -708,7 +710,7 @@ void loginPasswordOption(int id, String email) {
         break;
       case '2':
         {
-          validateLoginPassword(email);
+          login();
         }
         break;
       case '3':
@@ -756,3 +758,4 @@ void leaveApplicationOption(Map<String, String> leave, int id) {
     }
   }
 }
+
