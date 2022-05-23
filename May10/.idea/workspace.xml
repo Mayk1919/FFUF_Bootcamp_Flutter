@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="656697af-d8b4-4c33-8895-7cfde5fd0f5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CardShop/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/kotlin/com/example/may10_shop/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/android/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/background/expansion_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_page_pics/BrilliantStars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_page_pics/DarknessAblaze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_page_pics/FusionStrike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_page_pics/VividVoltage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_page_pics/champions_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_page_pics/shining_fates.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_page_pics/sword_and_shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Absol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Altaria.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/ArceusV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/ArceusVSTAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Axew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Blaziken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Blissey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/CelebiV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/CentiskorchV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/CentiskorchVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Chansey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Charizard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/CharizardV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/CharizardV2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/CharizardVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/CharizardVSTAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Charmander.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Charmeleon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Chimchar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Cinderace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Combusken.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Copperajah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Cufant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Dartrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Decidueye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Deino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Dewott.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Diancie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/DracovishV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Drizzile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Druddigon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/DuraludonV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/EnteiV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Eternatus V.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/EternatusVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Feebas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Fraxure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Galarian Linoone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GalarianObstagoon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GalarianZigzagoon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GardevoirV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GardevoirVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GengarV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GengarVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Geodude.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Golem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Graveler.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GrimmsnarlV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/GrimmsnarlVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Grookey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Grotle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Haxorus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/HoundoomV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Hydreigon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Infernape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Inteleon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Jigglypuff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Kangaskhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/KeldeoV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/KinglerV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/KinglerVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Lapras.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/LaprasV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/LaprasVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Larvitar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Latias.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Latios.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/LucarioV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Luxio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Luxray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Machamp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Machoke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Machop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Magmar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Magmortar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/MewV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Mewtwo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Milotic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Moltres.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Monferno.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Morpeko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/MorpekoV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/MorpekoVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Oshawott.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Pikachu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/PikachuV.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/PikachuVMAX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Pupitar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Raboot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Raichu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/RaikouV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/RhyperiorV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Rillaboom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/RillaboomV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/RillaboomVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Rowlet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Samurott.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Scorbunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/ShayminV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/ShayminVSTAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Shinx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/SimisearV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Snorlax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/SnorlaxV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/SnorlaxVMAX.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Sobble.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Suicune.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Swablu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/TapuKoko.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/TapuKokoV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Thwackey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Torchic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Torkoal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Torterra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Turtwig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Tyranitar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/VenusaurV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/VikavoltV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Wigglytuff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Xerneas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/ZacianV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/ZamazentaV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Zapdos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/ZarudeV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/card_pics/Zweilous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_cesare.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_crispy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_joe.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_katz.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_kelvin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_kevin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_manda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_ray.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_sandra.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_stef.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/profile_pics/person_tiffani.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/sample_data/sample_cards.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/sample_data/sample_explore_expansions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/sample_data/sample_explore_recipes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/sample_data/sample_friends_feed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/assets/sample_data/sample_recipes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/fonts/Pokemon_Hollow.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/fonts/Pokemon_Solid.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/api/mock_app_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/card_grid_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/card_thumbnail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/circle_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/components.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/expansion1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/expansion2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/expansion3.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/expansion4.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/expansion5.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/expansion6.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/expansion7.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/featured_expansion_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/friend_post_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/components/friend_post_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/models/card_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/models/explore_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/models/featured_expansion.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/models/models.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/models/post.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/lib/screen/explore_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardShop/test/widget_test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_banana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_brussels_sprouts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_burger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_cucumber.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_cupcake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_curry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_dozen_eggs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_flour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_friedrice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_green_beans.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_pancake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_peanutbutter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_pho.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_salmon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_soymilk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/food_pics/food_spaghetti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/card_bread.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/card_carrot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/card_salad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/card_smoothie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/mag1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/mag2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/mag3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/mag4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/magazine_pics/mag5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_cesare.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_crispy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_joe.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_katz.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_kelvin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_kevin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_manda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_ray.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_sandra.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_stef.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/profile_pics/person_tiffani.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/sample_data/sample_explore_recipes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/sample_data/sample_friends_feed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/assets/sample_data/sample_recipes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/api/mock_food_app_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/author_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/card1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/card2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/card3.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/circle_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/components.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/friend_post_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/friend_post_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/grocery_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/recipe_thumbnail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/recipes_grid_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/components/today_recipe_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/explore_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/explore_recipe.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/grocery_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/grocery_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/ingredient.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/instruction.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/models.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/post.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/simple_recipe.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/models/tab_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/screens/empty_grocery_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/screens/explore_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/screens/grocery_item_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/screens/grocery_list_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/screens/grocery_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/screens/recipes_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Food_app/lib/test.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_banana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_brussels_sprouts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_burger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_cucumber.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_cupcake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_curry.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_dozen_eggs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_flour.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_friedrice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_green_beans.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_pancake.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_peanutbutter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_pho.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_salmon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_soymilk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/food_pics/food_spaghetti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/card_bread.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/card_carrot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/card_salad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/card_smoothie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/mag1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/mag2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/mag3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/mag4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/magazine_pics/mag5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_cesare.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_crispy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_joe.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_katz.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_kelvin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_kevin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_manda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_ray.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_sandra.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_stef.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/profile_pics/person_tiffani.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/sample_data/sample_explore_recipes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/sample_data/sample_friends_feed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/assets/sample_data/sample_recipes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/images/images/image1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/images/images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/images/images/image3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/images/images/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/api/mock_food_app_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/author_card.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/card1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/card2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/card3.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/circle_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/components.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/friend_post_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/friend_post_tile.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/recipe_thumbnail.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/recipes_grid_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/components/today_recipe_list_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/home.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/explore_data.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/explore_recipe.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/grocery_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/grocery_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/ingredient.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/instruction.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/models.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/post.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/simple_recipe.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/models/tab_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/screens/empty_grocery_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/screens/explore_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/screens/grocery_item_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/screens/grocery_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/screens/recipes_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../May6/lib/test.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="28xL0UB3A2FUFDvnWxt6Jd0cUJg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../ProgramFiles/Android/android-sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CardShop" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="656697af-d8b4-4c33-8895-7cfde5fd0f5f" name="Changes" comment="" />
+      <created>1652153074296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652153074296</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
