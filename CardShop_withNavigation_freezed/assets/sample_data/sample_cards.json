@@ -1,0 +1,5906 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "price": 1.25,
+      "name": "Grookey",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 60,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV004/SV122",
+      "rarity": "Rare Shiny",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Fury Swipes",
+          "attackDescription": "Flip 3 coins. This attack does 10 damage for each heads.",
+          "attackDamage": "X10"
+        }
+      ],
+      "imageUrl": "card_pics/Grookey.png"
+    },
+    {
+      "id": 2,
+      "price": 1.45,
+      "name": "Thwackey",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Grookey",
+      "type": "Grass",
+      "hp": 90,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV005/SV122",
+      "rarity": "Rare Shiny",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "Lay of the Land",
+        "abilityEffect": "If you have a Stadium in play, this Pokémon has no Retreat Cost."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            }
+          ],
+          "attackName": "Branch Poke",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Thwackey.png"
+    },
+    {
+      "id": 3,
+      "price": 3.2,
+      "name": "Rillaboom",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Thwackey",
+      "type": "Grass",
+      "hp": 170,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV006/SV122",
+      "rarity": "Rare Shiny",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "Voltage Beat",
+        "abilityEffect": "Once during your turn, you may search your deck for up to 2 Grass Energy cards and attach them to 1 of your Pokémon. Then, shuffle your deck"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Hammer In",
+          "attackDescription": "None",
+          "attackDamage": "140"
+        }
+      ],
+      "imageUrl": "card_pics/Rillaboom.png"
+    },
+    {
+      "id": 4,
+      "price": 4.32,
+      "name": "Rillaboom V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 220,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV105/SV122",
+      "rarity": "Rare Shiny GX",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            }
+          ],
+          "attackName": "Forest Feast",
+          "attackDescription": "Search your deck for up to 2 Basic Grass Pokémon and put them onto your Bench. Then, shuffle your deck.",
+          "attackDamage": "None"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Wood Hammer",
+          "attackDescription": "This Pokémon also does 30 damage to itself.",
+          "attackDamage": "220"
+        }
+      ],
+      "imageUrl": "card_pics/RillaboomV.png"
+    },
+    {
+      "id": 5,
+      "price": 5.22,
+      "name": "Rillaboom VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Rillaboom V",
+      "type": "Grass",
+      "hp": 330,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV106/SV122",
+      "rarity": "Rare Shiny GX",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Scratch",
+          "attackDescription": "None",
+          "attackDamage": "50"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Max Beating",
+          "attackDescription": "You may discard up to 3 Grass Energy from this Pokémon. If you do, this attack does 50 more damage for each card you discarded in this way.",
+          "attackDamage": "130+"
+        }
+      ],
+      "imageUrl": "card_pics/RillaboomVMAX.png"
+    },
+    {
+      "id": 6,
+      "price": 1.23,
+      "name": "Scorbunny",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 60,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV015/SV122",
+      "rarity": "Rare Shiny",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "",
+        "abilityEffect": ""
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Ember",
+          "attackDescription": "Discard an Energy from this Pokémon.",
+          "attackDamage": "30"
+        }
+      ],
+      "imageUrl": "card_pics/Scorbunny.png"
+    },
+    {
+      "id": 7,
+      "price": 2.21,
+      "name": "Raboot",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Scorbunny",
+      "type": "Fire",
+      "hp": 90,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV016/SV122",
+      "rarity": "Rare Shiny",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "",
+        "abilityEffect": ""
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Flame Charge",
+          "attackDescription": "Search your deck for a Fire Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Magnum Kick",
+          "attackDescription": "None",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Raboot.png"
+    },
+    {
+      "id": 8,
+      "price": 3.2,
+      "name": "Cinderace",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Raboot",
+      "type": "Fire",
+      "hp": 170,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "SV017/SV122",
+      "rarity": "Rare Shiny",
+      "expansion": "Shining Fates",
+      "ability": {
+        "abilityName": "Libero",
+        "abilityEffect": "Once during your turn, when this Pokémon moves from your Bench to the Active Spot, you may attach up to 2 Fire Energy cards from your discard pile to it."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Flare Striker",
+          "attackDescription": "Discard 2 Energy from this Pokémon.",
+          "attackDamage": "190"
+        }
+      ],
+      "imageUrl": "card_pics/Cinderace.png"
+    },
+    {
+      "id": 9,
+      "price": 4.32,
+      "name": "Venusaur V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 220,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "001/073",
+      "rarity": "Ultra Rare",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Pollen Bomb",
+          "attackDescription": "Your opponent's Active Pokémon is now Asleep and Poisoned.",
+          "attackDamage": "80"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Solar Typhoon",
+          "attackDescription": "During your next turn, this Pokémon can't use Solar Typhoon.",
+          "attackDamage": "220"
+        }
+      ],
+      "imageUrl": "card_pics/VenusaurV.png"
+    },
+    {
+      "id": 10,
+      "price": 3.65,
+      "name": "Gardevoir V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Psychic",
+      "hp": 210,
+      "weakness": "Metal",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "070/073",
+      "rarity": "Rare Ultra",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Psychic"
+            }
+          ],
+          "attackName": "Magical Shot",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Psychic"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Swelling Pulse",
+          "attackDescription": "None",
+          "attackDamage": "120+"
+        }
+      ],
+      "imageUrl": "card_pics/GardevoirV.png"
+    },
+    {
+      "id": 11,
+      "price": 4.65,
+      "name": "Gardevoir VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Gardevoir V",
+      "type": "Psychic",
+      "hp": 320,
+      "weakness": "Metal",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "016/073",
+      "rarity": "Rare Secret",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Psychic"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Max Cure",
+          "attackDescription": "Heal 50 damage from this Pokémon.",
+          "attackDamage": "180"
+        }
+      ],
+      "imageUrl": "card_pics/GardevoirVMAX.png"
+    },
+    {
+      "id": 12,
+      "price": 1.30,
+      "name": "Machop",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fighting",
+      "hp": 70,
+      "weakness": "Psychic",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "024/073",
+      "rarity": "Common",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            }
+          ],
+          "attackName": "Low Kick",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Steady Punch",
+          "attackDescription": "Steady Punch",
+          "attackDamage": "20+"
+        }
+      ],
+      "imageUrl": "card_pics/Machop.png"
+    },
+    {
+      "id": 13,
+      "price": 2.81,
+      "name": "Machoke",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Machop",
+      "type": "Fighting",
+      "hp": 110,
+      "weakness": "Psychic",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "025/073",
+      "rarity": "Uncommon",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            }
+          ],
+          "attackName": "Low Kick",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fighting"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Pummel",
+          "attackDescription": "Flip a coin. If heads, this attack does 70 more damage.",
+          "attackDamage": "50+"
+        }
+      ],
+      "imageUrl": "card_pics/Machoke.png"
+    },
+    {
+      "id": 14,
+      "price": 3.65,
+      "name": "Machamp",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Machoke",
+      "type": "Fighting",
+      "hp": 170,
+      "weakness": "Psychic",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "026/073",
+      "rarity": "Rare Holo",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Macho Revenge",
+          "attackDescription": "This attack does 20 damage for each Fighting Pokémon in your discard pile.",
+          "attackDamage": "20x"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fighting"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Dynamite Punch",
+          "attackDescription": "This Pokémon also does 50 damage to itself.",
+          "attackDamage": "200"
+        }
+      ],
+      "imageUrl": "card_pics/Machamp.png"
+    },
+    {
+      "id": 15,
+      "price": 4.36,
+      "name": "Lucario V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fighting",
+      "hp": 210,
+      "weakness": "Psychic",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "Fighting",
+      "rarity": "Ultra Rare",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            }
+          ],
+          "attackName": "Aura Sphere",
+          "attackDescription": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "40"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fighting"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Beatdown Smash",
+          "attackDescription": "During your next turn, this Pokémon can't use Beatdown Smash.",
+          "attackDamage": "180"
+        }
+      ],
+      "imageUrl": "card_pics/LucarioV.png"
+    },
+    {
+      "id": 16,
+      "price": 4.98,
+      "name": "Duraludon V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Metal",
+      "hp": 220,
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "047/073",
+      "rarity": "Ultra Rare",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "Hard Coat",
+        "abilityEffect": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Gatling Slug",
+          "attackDescription": "This attack does 40 more damage for each Metal Energy attached to this Pokémon.",
+          "attackDamage": "10+"
+        }
+      ],
+      "imageUrl": "card_pics/DuraludonV.png"
+    },
+    {
+      "id": 17,
+      "price": 1.21,
+      "name": "Swablu",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Colorless",
+      "hp": 50,
+      "weakness": "Lightning",
+      "resistance": "Fighting",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "Swablu",
+      "rarity": "Common",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Peck",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Swablu.png"
+    },
+    {
+      "id": 18,
+      "price": 2.67,
+      "name": "Altaria",
+      "evolutionStage": "Altaria",
+      "evolveFrom": "Swablu",
+      "type": "Colorless",
+      "hp": 110,
+      "weakness": "Lightning",
+      "resistance": "Fighting",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "049/073",
+      "rarity": "Rare Holo",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "Miraculous Charm",
+        "abilityEffect": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon V and Pokémon-GX."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Speed Dive",
+          "attackDescription": "None",
+          "attackDamage": "60"
+        }
+      ],
+      "imageUrl": "card_pics/Altaria.png"
+    },
+    {
+      "id": 19,
+      "price": 1.22,
+      "name": "Galarian Zigzagoon",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Darkness",
+      "hp": 70,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "035/073",
+      "rarity": "Common",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Pin Missile",
+          "attackDescription": "Flip 4 coins. This attack does 10 damage for each heads.",
+          "attackDamage": "10x"
+        }
+      ],
+      "imageUrl": "card_pics/GalarianZigzagoon.png"
+    },
+    {
+      "id": 20,
+      "price": 2.10,
+      "name": "Galarian Linoone",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Galarian Zigzagoon",
+      "type": "Darkness",
+      "hp": 100,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "036/073",
+      "rarity": "Common",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Double-Edge",
+          "attackDescription": "This Pokémon also does 20 damage to itself.",
+          "attackDamage": "60"
+        }
+      ],
+      "imageUrl": "card_pics/GalarianLinoone.png"
+    },
+    {
+      "id": 21,
+      "price": 3.22,
+      "name": "Galarian Obstagoon",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Galarian Linoone",
+      "type": "Darkness",
+      "hp": 170,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "037/073",
+      "rarity": "Rare Holo",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "Wicked Ruler",
+        "abilityEffect": "Once during your turn, you may have your opponent discard cards from their hand until they have 4 cards in their hand."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Knuckle Impact",
+          "attackDescription": "During your next turn, this Pokémon can't attack.",
+          "attackDamage": "180"
+        }
+      ],
+      "imageUrl": "card_pics/GalarianObstagoon.png"
+    },
+    {
+      "id": 22,
+      "price": 2.36,
+      "name": "Absol",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Darkness",
+      "hp": 100,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "038/073",
+      "rarity": "Uncommon",
+      "expansion": "Champion's Path",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "Dark Cutter",
+          "attackDescription": "None",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Absol.png"
+    },
+    {
+      "id": 23,
+      "price": 4.32,
+      "name": "Celebi V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 180,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "001/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            }
+          ],
+          "attackName": "Find a Friend",
+          "attackDescription": "Search your deck for up to 2 Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Line Force",
+          "attackDescription": "This attack does 20 more damage for each of your Benched Pokémon.",
+          "attackDamage": "50+"
+        }
+      ],
+      "imageUrl": "card_pics/CelebiV.png"
+    },
+    {
+      "id": 24,
+      "price": 2.87,
+      "name": "Lapras",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 130,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "048/202",
+      "rarity": "Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 4,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Aqua Wash",
+          "attackDescription": "You may put 2 Energy attached to your opponent's Active Pokémon into their hand.",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Lapras.png"
+    },
+    {
+      "id": 25,
+      "price": 1.97,
+      "name": "Lapras V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 210,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "049/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Body Surf",
+          "attackDescription": "Attach a Water Energy card from your hand to this Pokémon. If you do, switch it with 1 of your Benched Pokémon",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Ocean Loop",
+          "attackDescription": "Put 2 Water Energy attached to this Pokémon into your hand.",
+          "attackDamage": "210"
+        }
+      ],
+      "imageUrl": "card_pics/LaprasV.png"
+    },
+    {
+      "id": 26,
+      "price": 4.00,
+      "name": "Lapras VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Lapras V",
+      "type": "Water",
+      "hp": 320,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "050/202",
+      "rarity": "Rare VMAX",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "G-Max Pump",
+          "attackDescription": "\nThis attack does 30 more damage for each Water Energy attached to this Pokémon",
+          "attackDamage": "90+"
+        }
+      ],
+      "imageUrl": "card_pics/LaprasVMAX.png"
+    },
+    {
+      "id": 27,
+      "price": 0.15,
+      "name": "Sobble",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 60,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "054/202",
+      "rarity": "Common",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Water Gun",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Sobble.png"
+    },
+    {
+      "id": 28,
+      "price": 0.33,
+      "name": "Drizzile",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Sobble",
+      "type": "Water",
+      "hp": 90,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "057/202",
+      "rarity": "Uncommon",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Rain Splash",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Wave Splash",
+          "attackDescription": "None",
+          "attackDamage": "40"
+        }
+      ],
+      "imageUrl": "card_pics/Drizzile.png"
+    },
+    {
+      "id": 29,
+      "price": 2.25,
+      "name": "Inteleon",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Drizzile",
+      "type": "Water",
+      "hp": 160,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "058/202",
+      "rarity": "Rare Holo",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "Shady Dealings",
+        "abilityEffect": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 2 Trainer cards, reveal them, and put them into your hand. Then, shuffle your deck."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Aqua Bullet",
+          "attackDescription": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "120"
+        }
+      ],
+      "imageUrl": "card_pics/Inteleon.png"
+    },
+    {
+      "id": 30,
+      "price": 1.55,
+      "name": "Keldeo V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 210,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "053/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Wave Splash",
+          "attackDescription": "None",
+          "attackDamage": "40"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Secret Sword",
+          "attackDescription": "This attack does 30 more damage for each Water Energy attached to this Pokémon.",
+          "attackDamage": "50+"
+        }
+      ],
+      "imageUrl": "card_pics/KeldeoV.png"
+    },
+    {
+      "id": 31,
+      "price": 0.55,
+      "name": "Pikachu",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 60,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "065/202",
+      "rarity": "Common",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Charge",
+          "attackDescription": "Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Electro Ball",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Pikachu.png"
+    },
+    {
+      "id": 32,
+      "price": 0.89,
+      "name": "Raichu",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Pikachu",
+      "type": "Lightning",
+      "hp": 130,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "066/202",
+      "rarity": "Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Pain-Full Punch",
+          "attackDescription": "None",
+          "attackDamage": "40"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Mach Bolt",
+          "attackDescription": "None",
+          "attackDamage": "120"
+        }
+      ],
+      "imageUrl": "card_pics/Raichu.png"
+    },
+    {
+      "id": 33,
+      "price": 1.64,
+      "name": "Tapu Koko V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 200,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 0,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "072/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            }
+          ],
+          "attackName": "Spike Draw",
+          "attackDescription": "Draw 2 cards.",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Thunderous Bolt",
+          "attackDescription": "During your next turn, this Pokémon can't attack.",
+          "attackDamage": "200"
+        }
+      ],
+      "imageUrl": "card_pics/TapuKokoV.png"
+    },
+    {
+      "id": 34,
+      "price": 0.48,
+      "name": "Morpeko",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 90,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "078/202",
+      "rarity": "Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            }
+          ],
+          "attackName": "Attack the Wound",
+          "attackDescription": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 50 more damage.",
+          "attackDamage": "10+"
+        }
+      ],
+      "imageUrl": "card_pics/Morpeko.png"
+    },
+    {
+      "id": 35,
+      "price": 1.50,
+      "name": "Morpeko V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 170,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "079/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Spark",
+          "attackDescription": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Electro Wheel",
+          "attackDescription": "Discard an Energy from this Pokémon. If you do, switch it with 1 of your Benched Pokémon.",
+          "attackDamage": "150"
+        }
+      ],
+      "imageUrl": "card_pics/MorpekoV.png"
+    },
+    {
+      "id": 36,
+      "price": 3.00,
+      "name": "Morpeko VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Morpeko V",
+      "type": "Lightning",
+      "hp": 300,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "080/202",
+      "rarity": "Rare VMAX",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Max Discharge",
+          "attackDescription": "This attack also does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "180"
+        }
+      ],
+      "imageUrl": "card_pics/MorpekoVMAX.png"
+    },
+    {
+      "id": 37,
+      "price": 0.25,
+      "name": "Cufant",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Metal",
+      "hp": 100,
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "136/202",
+      "rarity": "Common",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Metal"
+            }
+          ],
+          "attackName": "Stomp",
+          "attackDescription": "Flip a coin. If heads, this attack does 20 more damage.",
+          "attackDamage": "20+"
+        }
+      ],
+      "imageUrl": "card_pics/Cufant.png"
+    },
+    {
+      "id": 38,
+      "price": 0,
+      "name": "Copperajah",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Cufant",
+      "type": "Metal",
+      "hp": 190,
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "137/202",
+      "rarity": "Rare Holo",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Metal"
+            }
+          ],
+          "attackName": "Dig Drain",
+          "attackDescription": "Heal 30 damage from this Pokémon.",
+          "attackDamage": "60"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Metal"
+            }
+          ],
+          "attackName": "Muscular Nose",
+          "attackDescription": "If this Pokémon has 8 or more damage counters on it, this attack does nothing.",
+          "attackDamage": "220"
+        }
+      ],
+      "imageUrl": "card_pics/Copperajah.png"
+    },
+    {
+      "id": 39,
+      "price": 3.54,
+      "name": "Zacian V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Metal",
+      "hp": 220,
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "138/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "Intrepid Sword",
+        "abilityEffect": "Once during your turn, you may look at the top 3 cards of your deck and attach any number of Metal Energy cards you find there to this Pokémon. Put the other cards into your hand. If you use this Ability, your turn ends."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Metal"
+            }
+          ],
+          "attackName": "Brave Blade",
+          "attackDescription": "During your next turn, this Pokémon can't attack",
+          "attackDamage": "230"
+        }
+      ],
+      "imageUrl": "card_pics/ZacianV.png"
+    },
+    {
+      "id": 40,
+      "price": 3.71,
+      "name": "Zamazenta V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Metal",
+      "hp": 230,
+      "weakness": "Fire",
+      "resistance": "Grass",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "139/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "Dauntless Shield",
+        "abilityEffect": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon VMAX."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Metal"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Assault Tackle",
+          "attackDescription": "Discard a Special Energy from your opponent's Active Pokémon.",
+          "attackDamage": "130"
+        }
+      ],
+      "imageUrl": "card_pics/ZamazentaV.png"
+    },
+    {
+      "id": 41,
+      "price": 0.79,
+      "name": "Snorlax",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Colorless",
+      "hp": 150,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "140/202",
+      "rarity": "Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Rolling Tackle",
+          "attackDescription": "None",
+          "attackDamage": "80"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 4,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Heavy Impact",
+          "attackDescription": "None",
+          "attackDamage": "130"
+        }
+      ],
+      "imageUrl": "card_pics/Snorlax.png"
+    },
+    {
+      "id": 42,
+      "price": 2.04,
+      "name": "Snorlax V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Colorless",
+      "hp": 220,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "141/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Swallow",
+          "attackDescription": "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon.",
+          "attackDamage": "60"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 4,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Falling Down",
+          "attackDescription": "This Pokémon is now Asleep.",
+          "attackDamage": "170"
+        }
+      ],
+      "imageUrl": "card_pics/SnorlaxV.png"
+    },
+    {
+      "id": 43,
+      "price": 12.01,
+      "name": "Snorlax VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Snorlax V",
+      "type": "Colorless",
+      "hp": 340,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "142/202",
+      "rarity": "Ultra Rare",
+      "expansion": "Sword & Shield",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "G-Max Fall",
+          "attackDescription": "This attack does 30 more damage for each of your Benched Pokémon.",
+          "attackDamage": "60+"
+        }
+      ],
+      "imageUrl": "card_pics/SnorlaxVMAX.png"
+    },
+    {
+      "id": 44,
+      "price": 0,
+      "name": "Turtwig",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 80,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "006/172",
+      "rarity": "Common",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            }
+          ],
+          "attackName": "Bite",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Headbutt Bounce",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Turtwig.png"
+    },
+    {
+      "id": 45,
+      "price": 0.23,
+      "name": "Grotle",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Turtwig",
+      "type": "Grass",
+      "hp": 100,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "007/172",
+      "rarity": "Uncommon",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "Sun-Drenched Shell",
+        "abilityEffect": "Once during your turn, you may search your deck for a Grass Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Razor Leaf",
+          "attackDescription": "None",
+          "attackDamage": "50"
+        }
+      ],
+      "imageUrl": "card_pics/Grotle.png"
+    },
+    {
+      "id": 46,
+      "price": 0,
+      "name": "Torterra",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Grotle",
+      "type": "Grass",
+      "hp": 190,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "008/172",
+      "rarity": "Rare Holo",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Evopress",
+          "attackDescription": "This attack does 50 damage for each of your Evolution Pokémon in play.",
+          "attackDamage": "50x"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Hammer In",
+          "attackDescription": "None",
+          "attackDamage": "160"
+        }
+      ],
+      "imageUrl": "card_pics/Torterra.png"
+    },
+    {
+      "id": 47,
+      "price": 1.26,
+      "name": "Shaymin V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 190,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "013/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            }
+          ],
+          "attackName": "Flap",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Revenge Blast",
+          "attackDescription": "This attack does 40 more damage for each Prize card your opponent has taken.",
+          "attackDamage": "60+"
+        }
+      ],
+      "imageUrl": "card_pics/ShayminV.png"
+    },
+    {
+      "id": 48,
+      "price": 2.99,
+      "name": "Shaymin VSTAR",
+      "evolutionStage": "VSTAR",
+      "evolveFrom": "Shaymin V",
+      "type": "Grass",
+      "hp": 250,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "014/172",
+      "rarity": "Rare VSTAR",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "Star Bloom",
+        "abilityEffect": "During your turn, you may heal 120 damage from each of your Benched Grass Pokémon. (You can't use more than 1 VSTAR Power in a game.)"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Revenge Blast",
+          "attackDescription": "This attack does 40 more damage for each Prize card your opponent has taken.",
+          "attackDamage": "120+"
+        }
+      ],
+      "imageUrl": "card_pics/ShayminVSTAR.png"
+    },
+    {
+      "id": 49,
+      "price": 1.10,
+      "name": "Zarude V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 220,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "016/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            }
+          ],
+          "attackName": "Leap to Leap",
+          "attackDescription": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Jungle Rage",
+          "attackDescription": "If your opponent's Active Pokémon is a Pokémon V, this attack does 120 more damage.",
+          "attackDamage": "120+"
+        }
+      ],
+      "imageUrl": "card_pics/ZarudeV.png"
+    },
+    {
+      "id": 50,
+      "price": 5.15,
+      "name": "Charizard V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 220,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "017/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Incinerate",
+          "attackDescription": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon.",
+          "attackDamage": "90"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Heat Blast",
+          "attackDescription": "None",
+          "attackDamage": "180"
+        }
+      ],
+      "imageUrl": "card_pics/CharizardV.png"
+    },
+    {
+      "id": 51,
+      "price": 20.99,
+      "name": "Charizard VSTAR",
+      "evolutionStage": "VSTAR",
+      "evolveFrom": "Charizard V",
+      "type": "Fire",
+      "hp": 280,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "018/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Explosive Fire",
+          "attackDescription": "If this Pokémon has any damage counters on it, this attack does 100 more damage.",
+          "attackDamage": "130+"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Star Blaze",
+          "attackDescription": "Discard 2 Energy from this Pokémon. (You can't use more than 1 VSTAR Power in a game.)",
+          "attackDamage": "320"
+        }
+      ],
+      "imageUrl": "card_pics/CharizardVSTAR.png"
+    },
+    {
+      "id": 52,
+      "price": 0.20,
+      "name": "Magmar",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 90,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "019/172",
+      "rarity": "Common",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Low Kick",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Fiery Punch",
+          "attackDescription": "None",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Magmar.png"
+    },
+    {
+      "id": 53,
+      "price": 0.25,
+      "name": "Magmortar",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Magmar",
+      "type": "Fire",
+      "hp": 140,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "020/172",
+      "rarity": "Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Mega Punch",
+          "attackDescription": "None",
+          "attackDamage": "50"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Boltsplosion",
+          "attackDescription": "If Electivire is on your Bench, this attack does 120 more damage.",
+          "attackDamage": "120+"
+        }
+      ],
+      "imageUrl": "card_pics/Magmortar.png"
+    },
+    {
+      "id": 54,
+      "price": 0.26,
+      "name": "Moltres",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 120,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "021/172",
+      "rarity": "Rare Holo",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Inferno Wings",
+          "attackDescription": "If this Pokémon has any damage counters on it, this attack does 70 more damage. This attack's damage isn't affected by Weakness.",
+          "attackDamage": "20+"
+        }
+      ],
+      "imageUrl": "card_pics/Moltres.png"
+    },
+    {
+      "id": 55,
+      "price": 0,
+      "name": "Entei V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 230,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "022/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Basic Pokémon",
+      "ability": {
+        "abilityName": "Fleet-Footed",
+        "abilityEffect": "Once during your turn, if this Pokémon is in the Active Spot, you may draw a card."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Burning Rondo",
+          "attackDescription": "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's)",
+          "attackDamage": "20+"
+        }
+      ],
+      "imageUrl": "card_pics/EnteiV.png"
+    },
+    {
+      "id": 56,
+      "price": 0.149,
+      "name": "Torkoal",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 120,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "023/172",
+      "rarity": "Uncommon",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Firebreathing",
+          "attackDescription": "Flip a coin. If heads, this attack does 30 more damage.",
+          "attackDamage": "30+"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Guard Press",
+          "attackDescription": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance).",
+          "attackDamage": "90"
+        }
+      ],
+      "imageUrl": "card_pics/Torkoal.png"
+    },
+    {
+      "id": 57,
+      "price": 0.22,
+      "name": "Chimchar",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 50,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "024/172",
+      "rarity": "Common",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Ember",
+          "attackDescription": "Discard an Energy from this Pokémon.",
+          "attackDamage": "30"
+        }
+      ],
+      "imageUrl": "card_pics/Chimchar.png"
+    },
+    {
+      "id": 58,
+      "price": 0.25,
+      "name": "Monferno",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Chimchar",
+      "type": "Fire",
+      "hp": 80,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "025/172",
+      "rarity": "Uncommon",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Flare",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Flamethrower",
+          "attackDescription": "Discard an Energy from this Pokémon.",
+          "attackDamage": "50"
+        }
+      ],
+      "imageUrl": "card_pics/Monferno.png"
+    },
+    {
+      "id": 59,
+      "price": 0.25,
+      "name": "Infernape",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Monferno",
+      "type": "Fire",
+      "hp": 150,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "026/172",
+      "rarity": "Rare Holo",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Infernal Vortex",
+          "attackDescription": "Reveal the top 5 cards of your deck. This attack does 80 damage for each Energy card you find there. Then, discard those Energy cards and shuffle the other cards back into your deck.",
+          "attackDamage": "80x"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Burning Kick",
+          "attackDescription": "Discard all Energy from this Pokémon.",
+          "attackDamage": "160"
+        }
+      ],
+      "imageUrl": "card_pics/Infernape.png"
+    },
+    {
+      "id": 60,
+      "price": 1.05,
+      "name": "Simisear V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 210,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "027/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Bursting Power",
+          "attackDescription": "You may attach up to 2 basic Energy cards from your hand to your Pokémon in any way you like.",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Flare Juggling",
+          "attackDescription": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon.",
+          "attackDamage": "90+"
+        }
+      ],
+      "imageUrl": "card_pics/SimisearV.png"
+    },
+    {
+      "id": 61,
+      "price": 1.38,
+      "name": "Kingler V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 220,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "028/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Falling Bubbles",
+          "attackDescription": "\nFlip a coin. If heads, search your deck for up to 5 Water Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Raging Pincer",
+          "attackDescription": "This Pokémon also does 30 damage to itself.",
+          "attackDamage": "200"
+        }
+      ],
+      "imageUrl": "card_pics/KinglerV.png"
+    },
+    {
+      "id": 62,
+      "price": 2.99,
+      "name": "Kingler VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Kingler V",
+      "type": "Water",
+      "hp": 330,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "029/172",
+      "rarity": "Rare VMAX",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Bubbles Galore",
+          "attackDescription": "Search your deck for up to 5 Water Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "G-Max Pincer",
+          "attackDescription": "This Pokémon also does 30 damage to itself.",
+          "attackDamage": "240"
+        }
+      ],
+      "imageUrl": "card_pics/KinglerVMAX.png"
+    },
+    {
+      "id": 63,
+      "price": 1.78,
+      "name": "Raikou V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 200,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "048/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "Fleet-Footed",
+        "abilityEffect": "Once during your turn, if this Pokémon is in the Active Spot, you may draw a card."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Lightning Rondo",
+          "attackDescription": "This attack does 20 more damage for each Benched Pokémon (both yours and your opponent's).",
+          "attackDamage": "20+"
+        }
+      ],
+      "imageUrl": "card_pics/RaikouV.png"
+    },
+    {
+      "id": 64,
+      "price": 0.39,
+      "name": "Mewtwo",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Psychic",
+      "hp": 130,
+      "weakness": "Darkness",
+      "resistance": "Fighting",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "056/172",
+      "rarity": "Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Psychihc"
+            }
+          ],
+          "attackName": "Life Sucker",
+          "attackDescription": "Heal 20 damage from this Pokémon.",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Psychic"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Psyburn",
+          "attackDescription": "None",
+          "attackDamage": "110"
+        }
+      ],
+      "imageUrl": "card_pics/Mewtwo.png"
+    },
+    {
+      "id": 65,
+      "price": 0.15,
+      "name": "Axew",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Dragon",
+      "hp": 60,
+      "weakness": "None",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "110/172",
+      "rarity": "Common",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Ultra Evolution",
+          "attackDescription": "Flip a coin. If heads, search your deck for a Haxorus and put it onto this Axew to evolve it. Then, shuffle your deck.",
+          "attackDamage": "0"
+        }
+      ],
+      "imageUrl": "card_pics/Axew.png"
+    },
+    {
+      "id": 66,
+      "price": 0.17,
+      "name": "Fraxure",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Axew",
+      "type": "Dragon",
+      "hp": 100,
+      "weakness": "None",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "111/172",
+      "rarity": "Uncommon",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Sharp Fang",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 1,
+              "type": "Metal"
+            }
+          ],
+          "attackName": "Dragon Claw",
+          "attackDescription": "None",
+          "attackDamage": "60"
+        }
+      ],
+      "imageUrl": "card_pics/Fraxure.png"
+    },
+    {
+      "id": 67,
+      "price": 0.25,
+      "name": "Haxorus",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Fraxure",
+      "type": "Dragon",
+      "hp": 170,
+      "weakness": "None",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "112/172",
+      "rarity": "Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Slash",
+          "attackDescription": "None",
+          "attackDamage": "60"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 1,
+              "type": "Metal"
+            }
+          ],
+          "attackName": "Wild Axe",
+          "attackDescription": "This Pokémon also does 30 damage to itself.",
+          "attackDamage": "160"
+        }
+      ],
+      "imageUrl": "card_pics/Haxorus.png"
+    },
+    {
+      "id": 68,
+      "price": 0.25,
+      "name": "Druddigon",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Dragon",
+      "hp": 120,
+      "weakness": "None",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "113/172",
+      "rarity": "Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Revenge",
+          "attackDescription": "If any of your Pokémon were Knocked Out by damage from an attack from your opponent's Pokémon during their last turn, this attack does 120 more damage.",
+          "attackDamage": "40+"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Dragon Claw",
+          "attackDescription": "None",
+          "attackDamage": "120"
+        }
+      ],
+      "imageUrl": "card_pics/Druddigon.png"
+    },
+    {
+      "id": 69,
+      "price": 1.03,
+      "name": "Dracovish V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Dragon",
+      "hp": 220,
+      "weakness": "None",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "114/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": " Slosh 'n' Crash",
+          "attackDescription": "Before doing damage, discard all Pokémon Tools from your opponent's Active Pokémon. If you discarded a Pokémon Tool in this way, this attack does 120 more damage.",
+          "attackDamage": "60+"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 2,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Dragon Strike",
+          "attackDescription": "During your next turn, this Pokémon can't use Dragon Strike.",
+          "attackDamage": "210"
+        }
+      ],
+      "imageUrl": "card_pics/DracovishV.png"
+    },
+    {
+      "id": 70,
+      "price": 13.44,
+      "name": "Arceus V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Colorless",
+      "hp": 220,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "22/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Trinity Charge",
+          "attackDescription": "Search your deck for up to 3 basic Energy cards and attach them to your Pokémon V in any way you like. Then, shuffle your deck.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Power Edge",
+          "attackDescription": "None",
+          "attackDamage": "130"
+        }
+      ],
+      "imageUrl": "card_pics/ArceusV.png"
+    },
+    {
+      "id": 71,
+      "price": 34.70,
+      "name": "Arceus VSTAR",
+      "evolutionStage": "VSTAR",
+      "evolveFrom": "Arceus V",
+      "type": "Colorless",
+      "hp": 280,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "123/172",
+      "rarity": "Ultra Rare",
+      "expansion": "Brilliant Stars",
+      "ability": {
+        "abilityName": "Starbirth",
+        "abilityEffect": "During your turn, you may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck. (You can't use more than 1 VSTAR Power in a game.)"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Trinity Nova",
+          "attackDescription": "Search your deck for up to 3 basic Energy cards and attach them to your Pokémon V in any way you like. Then, shuffle your deck.",
+          "attackDamage": "200"
+        }
+      ],
+      "imageUrl": "card_pics/ArceusVSTAR.png"
+    },
+    {
+      "id": 72,
+      "price": 0.26,
+      "name": "Rowlet",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Grass",
+      "hp": 50,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "011/189",
+      "rarity": "Common",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "Sky Circus",
+        "abilityEffect": "f you played Bird Keeper from your hand during this turn, ignore all Energy in this Pokémon's attack costs."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Wind Shard",
+          "attackDescription": "This attack does 60 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "0"
+        }
+      ],
+      "imageUrl": "card_pics/Rowlet.png"
+    },
+    {
+      "id": 73,
+      "price": 0.25,
+      "name": "Dartrix",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Rowlet",
+      "type": "Grass",
+      "hp": 80,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "012/189",
+      "rarity": "Uncommon",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            }
+          ],
+          "attackName": "Razor Leaf",
+          "attackDescription": "None",
+          "attackDamage": "40"
+        }
+      ],
+      "imageUrl": "card_pics/Dartrix.png"
+    },
+    {
+      "id": 74,
+      "price": 0.55,
+      "name": "Decidueye",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Dartrix",
+      "type": "Grass",
+      "hp": 140,
+      "weakness": "Fire",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "013/189",
+      "rarity": "Rare Holo",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "Deep Forest Camo",
+        "abilityEffect": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon V and Pokémon-GX."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Grass"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Splitting Arrow",
+          "attackDescription": "This attack also does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "90"
+        }
+      ],
+      "imageUrl": "card_pics/Decidueye.png"
+    },
+    {
+      "id": 75,
+      "price": 9.83,
+      "name": "Charizard V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 220,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "019/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Claw Slash",
+          "attackDescription": "None",
+          "attackDamage": "80"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Fire Spin",
+          "attackDescription": "Discard 2 Energy from this Pokémon.",
+          "attackDamage": "220"
+        }
+      ],
+      "imageUrl": "card_pics/CharizardV2.png"
+    },
+    {
+      "id": 76,
+      "price": 54.00,
+      "name": "Charizard VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Charizard V",
+      "type": "Fire",
+      "hp": 330,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "020/189",
+      "rarity": "Rare VMAX",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Claw Slash",
+          "attackDescription": "None",
+          "attackDamage": "100"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Fire"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "G-Max Wildfire",
+          "attackDescription": "Discard 2 Energy from this Pokémon.",
+          "attackDamage": "300"
+        }
+      ],
+      "imageUrl": "card_pics/CharizardVMAX.png"
+    },
+    {
+      "id": 77,
+      "price": 1.75,
+      "name": "Houndoom V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 210,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "021/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Searing Flame",
+          "attackDescription": "Your opponent's Active Pokémon is now Burned.",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Vengeful Flame",
+          "attackDescription": "If your Benched Fire Pokémon have any damage counters on them, this attack does 100 more damage.",
+          "attackDamage": "100+"
+        }
+      ],
+      "imageUrl": "card_pics/HoundoomV.png"
+    },
+    {
+      "id": 78,
+      "price": 0.25,
+      "name": "Torchic",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 60,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "022/189",
+      "rarity": "Common",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Call for Family",
+          "attackDescription": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Live Coal",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        }
+      ],
+      "imageUrl": "card_pics/Torchic.png"
+    },
+    {
+      "id": 79,
+      "price": 0.25,
+      "name": "Combusken",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Torchic",
+      "type": "Fire",
+      "hp": 90,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "023/189",
+      "rarity": "Uncommon",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Smash Kick",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Heat Beak",
+          "attackDescription": "Your opponent's Active Pokémon is now Burned",
+          "attackDamage": "40"
+        }
+      ],
+      "imageUrl": "card_pics/Combusken.png"
+    },
+    {
+      "id": 80,
+      "price": 0.52,
+      "name": "Blaziken",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Combusken",
+      "type": "Fire",
+      "hp": 170,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "024/189",
+      "rarity": "Rare Holo",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "Double Type",
+        "abilityEffect": "As long as this Pokémon is in play, it is Fire and Fighting type."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Turbo Drive",
+          "attackDescription": "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon.",
+          "attackDamage": "130"
+        }
+      ],
+      "imageUrl": "card_pics/Blaziken.png"
+    },
+    {
+      "id": 81,
+      "price": 1.65,
+      "name": "Centiskorch V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 210,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "033/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Radiating Heat",
+          "attackDescription": "You may discard an Energy from this Pokémon. If you do, discard an Energy attached to your opponent's Active Pokémon.",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 4,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Burning Train",
+          "attackDescription": "None",
+          "attackDamage": "180"
+        }
+      ],
+      "imageUrl": "card_pics/CentiskorchV.png"
+    },
+    {
+      "id": 82,
+      "price": 3.10,
+      "name": "Centiskorch VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Centiskorch V",
+      "type": "Fire",
+      "hp": 320,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "034/189",
+      "rarity": "Rare VMAX",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "G-Max Centiferno",
+          "attackDescription": "This attack does 40 more damage for each Fire Energy attached to this Pokémon. If you did any damage with this attack, you may attach a Fire Energy card from your discard pile to this Pokémon.",
+          "attackDamage": "40+"
+        }
+      ],
+      "imageUrl": "card_pics/CentiskorchVMAX.png"
+    },
+    {
+      "id": 83,
+      "price": 0.78,
+      "name": "Suicune",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 120,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "037/189",
+      "rarity": "Rare Holo",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Wave Splash",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Aurora Loop",
+          "attackDescription": "Put 2 Water Energy attached to this Pokémon into your hand.",
+          "attackDamage": "130"
+        }
+      ],
+      "imageUrl": "card_pics/Suicune.png"
+    },
+    {
+      "id": 84,
+      "price": 0.25,
+      "name": "Feebas",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 30,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "038/189",
+      "rarity": "Common",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Nap",
+          "attackDescription": "Heal 20 damage from this Pokémon.",
+          "attackDamage": "0"
+        }
+      ],
+      "imageUrl": "card_pics/Feebas.png"
+    },
+    {
+      "id": 85,
+      "price": 0.48,
+      "name": "Milotic",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Feebas",
+      "type": "Water",
+      "hp": 120,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "039/189",
+      "rarity": "Rare Holo",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "Bright Heal",
+        "abilityEffect": "\nOnce during your turn, you may heal 20 damage from each of your Pokémon"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Surf",
+          "attackDescription": "None",
+          "attackDamage": "80"
+        }
+      ],
+      "imageUrl": "card_pics/Milotic.png"
+    },
+    {
+      "id": 86,
+      "price": 1.70,
+      "name": "Vikavolt V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 210,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "060/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Paralyzing Bolt",
+          "attackDescription": "During your opponent's next turn, they can't play any Item cards from their hand",
+          "attackDamage": "50"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Super Zap Cannon",
+          "attackDescription": "Discard 2 Energy from this Pokémon.",
+          "attackDamage": "190"
+        }
+      ],
+      "imageUrl": "card_pics/VikavoltV.png"
+    },
+    {
+      "id": 87,
+      "price": 0.50,
+      "name": "Tapu Koko",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 110,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 0,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "061/189",
+      "rarity": "Rare Holo",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Allure",
+          "attackDescription": "Draw 2 cards.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Electric Ball",
+          "attackDescription": "None",
+          "attackDamage": "110"
+        }
+      ],
+      "imageUrl": "card_pics/TapuKoko.png"
+    },
+    {
+      "id": 88,
+      "price": 0.25,
+      "name": "Jigglypuff",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Psychic",
+      "hp": 70,
+      "weakness": "Metal",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "067/189",
+      "rarity": "Common",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Mumble",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Psychic"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Moon Kick",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Jigglypuff.png"
+    },
+    {
+      "id": 89,
+      "price": 0.43,
+      "name": "Wigglytuff",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Jigglypuff",
+      "type": "Psychic",
+      "hp": 120,
+      "weakness": "Metal",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "068/189",
+      "rarity": "Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Psychic"
+            }
+          ],
+          "attackName": "Sleep Pulse",
+          "attackDescription": "Your opponent's Active Pokémon is now Asleep.",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Double Smash",
+          "attackDescription": "Flip 2 coins. This attack does 90 damage for each heads.",
+          "attackDamage": "90x"
+        }
+      ],
+      "imageUrl": "card_pics/Wigglytuff.png"
+    },
+    {
+      "id": 90,
+      "price": 2.77,
+      "name": "Mew V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Psychic",
+      "hp": 180,
+      "weakness": "Darkness",
+      "resistance": "Fighting",
+      "retreatCost": [
+        {
+          "amount": 0,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "069/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Psychic"
+            }
+          ],
+          "attackName": "X Ball",
+          "attackDescription": "This attack does 30 damage for each Energy attached to both Active Pokémon.",
+          "attackDamage": "30x"
+        }
+      ],
+      "imageUrl": "card_pics/MewV.png"
+    },
+    {
+      "id": 91,
+      "price": 0.25,
+      "name": "Larvitar",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fighting",
+      "hp": 70,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "086/189",
+      "rarity": "Common",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            }
+          ],
+          "attackName": "Sand Spray",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Pierce",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Larvitar.png"
+    },
+    {
+      "id": 92,
+      "price": 0.25,
+      "name": "Pupitar",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Larvitar",
+      "type": "Fighting",
+      "hp": 80,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "087/189",
+      "rarity": "Uncommon",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            }
+          ],
+          "attackName": "Sand Spray",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Rocket Evolution",
+          "attackDescription": "Search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+          "attackDamage": "40"
+        }
+      ],
+      "imageUrl": "card_pics/Pupitar.png"
+    },
+    {
+      "id": 93,
+      "price": 0.64,
+      "name": "Tyranitar",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Pupitar",
+      "type": "Fighting",
+      "hp": 180,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "088/189",
+      "rarity": "Rare Holo",
+      "expansion": "",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Bedrock Breaker",
+          "attackDescription": "Discard a Stadium in play.",
+          "attackDamage": "120"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fighting"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Mountain Swing",
+          "attackDescription": "Discard the top 5 cards of your deck.",
+          "attackDamage": "250"
+        }
+      ],
+      "imageUrl": "card_pics/Tyranitar.png"
+    },
+    {
+      "id": 94,
+      "price": 1.50,
+      "name": "Rhyperior V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fighting",
+      "hp": 230,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "095/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Drill Run",
+          "attackDescription": "Discard an Energy from your opponent's Active Pokémon.",
+          "attackDamage": "80"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Heavy Rock Artillery",
+          "attackDescription": "During your next turn, this Pokémon can't use Heavy Rock Artillery.",
+          "attackDamage": "210"
+        }
+      ],
+      "imageUrl": "card_pics/RhyperiorV.png"
+    },
+    {
+      "id": 95,
+      "price": 0.25,
+      "name": "Deino",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Darkness",
+      "hp": 60,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "108/189",
+      "rarity": "Common",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Ram",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        }
+      ],
+      "imageUrl": "card_pics/Deino.png"
+    },
+    {
+      "id": 96,
+      "price": 0.25,
+      "name": "Zweilous",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Deino",
+      "type": "Darkness",
+      "hp": 100,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "109/189",
+      "rarity": "Uncommon",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Darkness"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Corkscrew Punch",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Darkness"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Darkness Fang",
+          "attackDescription": "None",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Zweilous.png"
+    },
+    {
+      "id": 97,
+      "price": 0.61,
+      "name": "Hydreigon",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Zweilous",
+      "type": "Darkness",
+      "hp": 160,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "110/189",
+      "rarity": "Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "Dark Squall",
+        "abilityEffect": "As often as you like during your turn, you may attach a Darkness Energy card from your hand to 1 of your Pokémon."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Darkness"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Pitch-Black Fangs",
+          "attackDescription": "None",
+          "attackDamage": "130"
+        }
+      ],
+      "imageUrl": "card_pics/Hydreigon.png"
+    },
+    {
+      "id": 98,
+      "price": 1.50,
+      "name": "Grimmsnarl V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Darkness",
+      "hp": 220,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "114/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "Bite",
+          "attackDescription": "None",
+          "attackDamage": "40"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "Spiky Knuckle",
+          "attackDescription": "Put 2 Darkness Energy attached to this Pokémon into your hand.",
+          "attackDamage": "200"
+        }
+      ],
+      "imageUrl": "card_pics/GrimmsnarlV.png"
+    },
+    {
+      "id": 99,
+      "price": 3.50,
+      "name": "Grimmsnarl VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Grimmsnarl V",
+      "type": "Darkness",
+      "hp": 330,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "115/189",
+      "rarity": "Rare VMAX",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "G-Max Drill",
+          "attackDescription": "\nThis attack does 50 more damage for each extra Darkness Energy attached to this Pokémon (in addition to this attack's cost). You can't add more than 100 damage in this way.",
+          "attackDamage": "170+"
+        }
+      ],
+      "imageUrl": "card_pics/GrimmsnarlVMAX.png"
+    },
+    {
+      "id": 100,
+      "price": 2.02,
+      "name": "Eternatus V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Darkness",
+      "hp": 220,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "116/189",
+      "rarity": "Ultra Rare",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Power Accelerator",
+          "attackDescription": "You may attach a Darkness Energy card from your hand to 1 of your Benched Pokémon.",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Darkness"
+            },
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Dynamax Cannon",
+          "attackDescription": "If your opponent's Active Pokémon is a Pokémon VMAX, this attack does 120 more damage.",
+          "attackDamage": "120+"
+        }
+      ],
+      "imageUrl": "card_pics/EternatusV.png"
+    },
+    {
+      "id": 101,
+      "price": 5.00,
+      "name": "Eternatus VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Eternatus V",
+      "type": "Darkness",
+      "hp": 340,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "117/189",
+      "rarity": "Rare VMAX",
+      "expansion": "Darkness Ablaze",
+      "ability": {
+        "abilityName": "Eternal Zone",
+        "abilityEffect": "If all of your Pokémon in play are Darkness type, you can have up to 8 Pokémon on your Bench and you can't put non-Darkness Pokémon into play. (If this Ability stops working, discard Pokémon from your Bench until you have 5.)"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Darkness"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Dread End",
+          "attackDescription": "This attack does 30 damage for each of your Darkness Pokémon in play.",
+          "attackDamage": "30x"
+        }
+      ],
+      "imageUrl": "card_pics/EternatusVMAX.png"
+    },
+    {
+      "id": 102,
+      "price": 0.40,
+      "name": "Charmander",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fire",
+      "hp": 70,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "023/185",
+      "rarity": "Common",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Collect",
+          "attackDescription": "Draw a card.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Flare",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        }
+      ],
+      "imageUrl": "card_pics/Charmander.jpg"
+    },
+    {
+      "id": 103,
+      "price": 0.39,
+      "name": "Charmeleon",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Charmander",
+      "type": "Fire",
+      "hp": 90,
+      "weakness": "Weakness",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "024/185",
+      "rarity": "Uncommon",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Slash",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Raging Flames",
+          "attackDescription": "Discard the top 3 cards of your deck.",
+          "attackDamage": "60"
+        }
+      ],
+      "imageUrl": "card_pics/Charmeleon.jpg"
+    },
+    {
+      "id": 104,
+      "price": 3.92,
+      "name": "Charizard",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Charmeleon",
+      "type": "Fire",
+      "hp": 170,
+      "weakness": "Water",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "025/185",
+      "rarity": "Rare",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "Battle Sense",
+        "abilityEffect": "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Fire"
+            }
+          ],
+          "attackName": "Royal Blaze",
+          "attackDescription": "This attack does 50 more damage for each Leon card in your discard pile.",
+          "attackDamage": "100+"
+        }
+      ],
+      "imageUrl": "card_pics/Charizard.jpg"
+    },
+    {
+      "id": 105,
+      "price": 0.25,
+      "name": "Oshawott",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Water",
+      "hp": 70,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "033/185",
+      "rarity": "Common",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Water Gun",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Seashell Attack",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Oshawott.jpg"
+    },
+    {
+      "id": 106,
+      "price": 0.25,
+      "name": "Dewott",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Oshawott",
+      "type": "Water",
+      "hp": 90,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "034/185",
+      "rarity": "Uncommon",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            }
+          ],
+          "attackName": "Water Gun",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Aqua Wash",
+          "attackDescription": "You may put an Energy attached to your opponent's Active Pokémon into their hand.",
+          "attackDamage": "50"
+        }
+      ],
+      "imageUrl": "card_pics/Dewott.jpg"
+    },
+    {
+      "id": 107,
+      "price": 0.40,
+      "name": "Samurott",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Dewott",
+      "type": "Water",
+      "hp": 160,
+      "weakness": "Lightning",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "035/185",
+      "rarity": "Rare",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "Shell Armor",
+        "abilityEffect": "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Water"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Aqua Wash",
+          "attackDescription": "You may put 2 Energy attached to your opponent's Active Pokémon into their hand.",
+          "attackDamage": "120"
+        }
+      ],
+      "imageUrl": "card_pics/Samurott.jpg"
+    },
+    {
+      "id": 108,
+      "price": 1.96,
+      "name": "Pikachu V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 190,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "043/185",
+      "rarity": "Ultra Rare",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            }
+          ],
+          "attackName": "Charge",
+          "attackDescription": "Search your deck for up to 2 Lightning Energy cards and attach them to this Pokémon. Then, shuffle your deck.",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Thunderbolt",
+          "attackDescription": "Discard all Energy from this Pokémon.",
+          "attackDamage": "200"
+        }
+      ],
+      "imageUrl": "card_pics/PikachuV.jpg"
+    },
+    {
+      "id": 109,
+      "price": 9.99,
+      "name": "Pikachu VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Pikachu V",
+      "type": "Lightning",
+      "hp": 310,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "044/185",
+      "rarity": "Ultra Rare",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Lightning"
+            }
+          ],
+          "attackName": "G-Max Volt Tackle",
+          "attackDescription": "You may discard all Energy from this Pokémon. If you do, this attack does 150 more damage.",
+          "attackDamage": "120+"
+        }
+      ],
+      "imageUrl": "card_pics/PikachuVMAX.jpg"
+    },
+    {
+      "id": 110,
+      "price": 0.74,
+      "name": "Zapdos",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 110,
+      "weakness": "Lightning",
+      "resistance": "Fighting",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "048/185",
+      "rarity": "Rare Holo",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Drill Peck",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Thunder Snipe",
+          "attackDescription": "Discard all Energy from this Pokémon, and this attack does 160 damage to 1 of your opponent's Pokémon V or Pokémon-GX. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+          "attackDamage": "0"
+        }
+      ],
+      "imageUrl": "card_pics/Zapdos.jpg"
+    },
+    {
+      "id": 111,
+      "price": 0.43,
+      "name": "Xerneas",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Psychic",
+      "hp": 130,
+      "weakness": "Metal",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "078/185",
+      "rarity": "Rare Holo",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Psychic"
+            }
+          ],
+          "attackName": "Geo Hunt",
+          "attackDescription": "Put a card from your discard pile into your hand",
+          "attackDamage": "0"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Psychic"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Aurora Gain",
+          "attackDescription": "Heal 30 damage from this Pokémon.",
+          "attackDamage": "100"
+        }
+      ],
+      "imageUrl": "card_pics/Xerneas.jpg"
+    },
+    {
+      "id": 112,
+      "price": 0.35,
+      "name": "Diancie",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Psychic",
+      "hp": 90,
+      "weakness": "Metal",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "079/185",
+      "rarity": "Rare Holo",
+      "expansion": "Vivid Voltage",
+      "ability": {
+        "abilityName": "Sparkle Veil",
+        "abilityEffect": "As long as this Pokémon is in the Active Spot, your Pokémon take 30 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance)."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Psychic"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Sensitive Ray",
+          "attackDescription": "If you played a Supporter card from your hand during this turn, this attack does 70 more damage.",
+          "attackDamage": "50+"
+        }
+      ],
+      "imageUrl": "card_pics/Diancie.jpg"
+    },
+    {
+      "id": 113,
+      "price": 0.25,
+      "name": "Shinx",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Lightning",
+      "hp": 50,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "091/264",
+      "rarity": "Common",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            }
+          ],
+          "attackName": "Gnaw ",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": " Electric Claws",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Shinx.png"
+    },
+    {
+      "id": 114,
+      "price": 0.25,
+      "name": "Luxio",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Shinx",
+      "type": "Lightning",
+      "hp": 90,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "092/264",
+      "rarity": "Uncommon",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Electric Claws ",
+          "attackDescription": "None",
+          "attackDamage": "50"
+        }
+      ],
+      "imageUrl": "card_pics/Luxio.png"
+    },
+    {
+      "id": 115,
+      "price": 0.30,
+      "name": "Luxray",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Luxio",
+      "type": "Lightning",
+      "hp": 160,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 0,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "093/264",
+      "rarity": "Rare",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Lightning"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Thunder Claws ",
+          "attackDescription": "None",
+          "attackDamage": "90"
+        }
+      ],
+      "imageUrl": "card_pics/Luxray.png"
+    },
+    {
+      "id": 116,
+      "price": 0.26,
+      "name": "Geodude",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Fighting",
+      "hp": 80,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "135/264",
+      "rarity": "Common",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            }
+          ],
+          "attackName": "Rollout ",
+          "attackDescription": "None",
+          "attackDamage": "10"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Light Punch ",
+          "attackDescription": "None",
+          "attackDamage": "20"
+        }
+      ],
+      "imageUrl": "card_pics/Geodude.png"
+    },
+    {
+      "id": 117,
+      "price": 0.25,
+      "name": "Graveler",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Geodude",
+      "type": "Fighting",
+      "hp": 110,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "136/264",
+      "rarity": "Uncommon",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            }
+          ],
+          "attackName": "Tackle ",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Boulder Crush ",
+          "attackDescription": "None",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Graveler.png"
+    },
+    {
+      "id": 118,
+      "price": 0.39,
+      "name": "Golem",
+      "evolutionStage": "Stage 2",
+      "evolveFrom": "Graveler",
+      "type": "Fighting",
+      "hp": 180,
+      "weakness": "Grass",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 4,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "137/264",
+      "rarity": "Rare",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "Desperate Blast",
+        "abilityEffect": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, put 10 damage counters on the Attacking Pokémon."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fighting"
+            },
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Double-Edge ",
+          "attackDescription": "This Pokémon also does 30 damage to itself.",
+          "attackDamage": "160"
+        }
+      ],
+      "imageUrl": "card_pics/Golem.png"
+    },
+    {
+      "id": 119,
+      "price": 4.58,
+      "name": "Gengar V",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Darkness",
+      "hp": 210,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "156/264",
+      "rarity": "Ultra Rare",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "Dark Slumber ",
+          "attackDescription": "None",
+          "attackDamage": "40"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "Pain Explosion ",
+          "attackDescription": "None",
+          "attackDamage": "190"
+        }
+      ],
+      "imageUrl": "card_pics/GengarV.png"
+    },
+    {
+      "id": 120,
+      "price": 17.99,
+      "name": "Gengar VMAX",
+      "evolutionStage": "VMAX",
+      "evolveFrom": "Gengar V",
+      "type": "Darkness",
+      "hp": 320,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 3,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "157/264",
+      "rarity": "Rare VMAX",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "Fear and Panic ",
+          "attackDescription": "This attack does 60 damage for each of your opponent's Pokémon V and Pokémon-GX in play.",
+          "attackDamage": "60x"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Darkness"
+            }
+          ],
+          "attackName": "G-Max Swallow Up ",
+          "attackDescription": "During your next turn, this Pokémon can't attack.",
+          "attackDamage": "250"
+        }
+      ],
+      "imageUrl": "card_pics/GengarVMAX.png"
+    },
+    {
+      "id": 121,
+      "price": 0.63,
+      "name": "Latias",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Dragon",
+      "hp": 120,
+      "weakness": "None",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 1,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "193/264",
+      "rarity": "Rare",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "Red Assist",
+        "abilityEffect": "Once during your turn, you may attach a Psychic Energy card from your hand to 1 of your Latios."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Fire"
+            },
+            {
+              "amount": 1,
+              "type": "Psychic"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Dyna Barrier ",
+          "attackDescription": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon VMAX.",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Latias.png"
+    },
+    {
+      "id": 122,
+      "price": 0.48,
+      "name": "Latios",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Dragon",
+      "hp": 130,
+      "weakness": "None",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "194/264",
+      "rarity": "Rare",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "Blue Assist",
+        "abilityEffect": "Once during your turn, you may attach a Psychic Energy card from your hand to 1 of your Latias."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Water"
+            },
+            {
+              "amount": 1,
+              "type": "Psychic"
+            },
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Luster Purge ",
+          "attackDescription": "Discard 2 Energy from this Pokémon.",
+          "attackDamage": "210"
+        }
+      ],
+      "imageUrl": "card_pics/Latios.png"
+    },
+    {
+      "id": 123,
+      "price": 0.20,
+      "name": "Chansey",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Colorless",
+      "hp": 110,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "202/264",
+      "rarity": "Common",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 2,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Drain Slap ",
+          "attackDescription": "Heal 30 damage from this Pokémon.",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Gentle Slap ",
+          "attackDescription": "None",
+          "attackDamage": "70"
+        }
+      ],
+      "imageUrl": "card_pics/Chansey.png"
+    },
+    {
+      "id": 124,
+      "price": 0.31,
+      "name": "Blissey",
+      "evolutionStage": "Stage 1",
+      "evolveFrom": "Chansey",
+      "type": "Colorless",
+      "hp": 130,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "203/264",
+      "rarity": "Rare",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "Expert in Roundness",
+        "abilityEffect": "Prevent all damage done to each of your Pokémon that has the Let's All Rollout attack by attacks from your opponent's Pokémon VMAX."
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Let's All Rollout ",
+          "attackDescription": "This attack does 20 damage for each of your Benched Pokémon that has the Let's All Rollout attack.",
+          "attackDamage": "20x"
+        }
+      ],
+      "imageUrl": "card_pics/Blissey.png"
+    },
+    {
+      "id": 125,
+      "price": 0.28,
+      "name": "Kangaskhan",
+      "evolutionStage": "Basic",
+      "evolveFrom": "None",
+      "type": "Colorless",
+      "hp": 120,
+      "weakness": "Fighting",
+      "resistance": "None",
+      "retreatCost": [
+        {
+          "amount": 2,
+          "type": "Colorless"
+        }
+      ],
+      "cardNumber": "204/264",
+      "rarity": "Rare",
+      "expansion": "Fusion Strike",
+      "ability": {
+        "abilityName": "None",
+        "abilityEffect": "None"
+      },
+      "attacks": [
+        {
+          "attackCost": [
+            {
+              "amount": 1,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Pound ",
+          "attackDescription": "None",
+          "attackDamage": "30"
+        },
+        {
+          "attackCost": [
+            {
+              "amount": 3,
+              "type": "Colorless"
+            }
+          ],
+          "attackName": "Coordinated One-Two Punch ",
+          "attackDescription": "Flip a coin. If heads, this attack does 100 more damage.",
+          "attackDamage": "60+"
+        }
+      ],
+      "imageUrl": "card_pics/Kangaskhan.png"
+    }
+  ]
+}

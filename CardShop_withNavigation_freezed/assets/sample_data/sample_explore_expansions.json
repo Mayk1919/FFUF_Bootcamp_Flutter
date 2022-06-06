@@ -1,0 +1,152 @@
+{
+  "expansions": [
+    {
+      "id": 1,
+      "name": "Shining Fates",
+      "series": "Sword and Shield",
+      "numberOfCards": 122,
+      "cardRarityCount": [
+        {
+          "rareHoloV": 0,
+          "common": 0,
+          "rare": 0,
+          "uncommon": 0,
+          "rareHolo": 0,
+          "rareHoloVmax": 0,
+          "rareUltra": 115,
+          "rareRainbow": 7,
+          "rareHoloVstar": 0,
+          "secretRareHalo": 0
+        }
+      ],
+      "mostExpensiveCard": "Charizard VMAX"
+    },
+    {
+      "id": 2,
+      "name": "Champions Path",
+      "series": "Sword and Shield",
+      "numberOfCards": 80,
+      "cardRarityCount": [
+        {
+          "rareHoloV": 15,
+          "common": 21,
+          "rare": 32,
+          "uncommon": 56,
+          "rareHolo": 23,
+          "rareHoloVmax": 5,
+          "rareUltra": 16,
+          "rareRainbow": 8,
+          "rareHoloVstar": 0,
+          "secretRareHalo": 0
+        }
+      ],
+      "mostExpensiveCard": "Charizard VMAX"
+    },
+    {
+      "id": 3,
+      "name": "Sword and Shield",
+      "series": "Sword and Shield",
+      "numberOfCards": 216,
+      "cardRarityCount": [
+        {
+          "rareHoloV": 16,
+          "common": 60,
+          "rare": 0,
+          "uncommon": 23,
+          "rareHolo": 12,
+          "rareHoloVmax": 3,
+          "rareUltra": 1,
+          "rareRainbow": 5,
+          "rareHoloVstar":0,
+          "secretRareHalo": 0
+        }
+      ],
+      "mostExpensiveCard": "Marnie"
+    },
+    {
+      "id": 4,
+      "name": "Brilliant Stars",
+      "series": "Sword and Shield",
+      "numberOfCards": 216,
+      "cardRarityCount": [
+        {
+          "rareHoloV": 26,
+          "common": 42,
+          "rare": 26,
+          "uncommon": 46,
+          "rareHolo": 22,
+          "rareHoloVmax": 8,
+          "rareUltra": 26,
+          "rareRainbow": 8,
+          "rareHoloVstar": 4,
+          "secretRareHalo": 8
+        }
+      ],
+      "mostExpensiveCard": "Charizard V"
+    },
+    {
+      "id": 5,
+      "name": "Darkness Ablaze",
+      "series": "Sword and Shield",
+      "numberOfCards": 201,
+      "cardRarityCount": [
+        {
+          "rareHoloV": 14,
+          "common": 52,
+          "rare": 34,
+          "uncommon": 51,
+          "rareHolo": 23,
+          "rareHoloVmax": 7,
+          "rareUltra": 13,
+          "rareRainbow": 7,
+          "rareHoloVstar": 0,
+          "secretRareHalo": 0
+        }
+      ],
+      "mostExpensiveCard": "Charizard VMAX"
+    },
+    {
+      "id": 6,
+      "name": "Vivid Voltage",
+      "series": "Sword and Shield",
+      "numberOfCards": 203,
+      "cardRarityCount": [
+        {
+          "rareHoloV": 11,
+          "common": 44,
+          "rare": 33,
+          "uncommon": 46,
+          "rareHolo": 19,
+          "rareHoloVmax": 6,
+          "rareUltra": 20,
+          "rareRainbow": 12,
+          "rareHoloVstar": 0,
+          "secretRareHalo": 6,
+          "amazingRare": 6
+        }
+      ],
+      "mostExpensiveCard": "Pikachu VMAX"
+    },
+    {
+      "id": 7,
+      "name": "Fusion Strike",
+      "series": "Sword and Shield",
+      "numberOfCards": 284,
+      "cardRarityCount": [
+        {
+          "rareHoloV": 19,
+          "common": 89,
+          "rare": 31,
+          "uncommon": 83,
+          "rareHolo": 14,
+          "rareHoloVmax": 8,
+          "rareUltra": 24,
+          "rareRainbow": 11,
+          "rareHoloVstar": 0,
+          "secretRareHalo": 5
+        }
+      ],
+      "mostExpensiveCard": "Espeon VMAX"
+    }
+  ]
+}
