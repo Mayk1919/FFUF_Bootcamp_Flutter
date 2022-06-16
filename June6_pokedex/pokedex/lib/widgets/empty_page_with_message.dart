@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 
 class EmptyPageWithMessage extends StatelessWidget {
-
   const EmptyPageWithMessage({
     required this.message,
-    Key? key, 
-    }) : super(key: key);
+  });
 
   final String message;
 
@@ -14,9 +12,7 @@ class EmptyPageWithMessage extends StatelessWidget {
     return Center(
       child: Text(
         message,
-        style: const TextStyle(
-          color: Colors.black,
-        ),
+        style: const TextStyle(color: Colors.black),
       ),
     );
   }

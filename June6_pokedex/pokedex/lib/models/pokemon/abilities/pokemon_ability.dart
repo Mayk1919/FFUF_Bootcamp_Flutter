@@ -1,8 +1,10 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:pokedex/models/pokemon/abilities/ability_info.dart';
+
+import 'ability_info.dart';
 
 part 'pokemon_ability.freezed.dart';
+
 part 'pokemon_ability.g.dart';
 
 @freezed

@@ -3,13 +3,12 @@ import 'package:pokedex/widgets/empty_footer.dart';
 import 'package:pokedex/widgets/progress_indicator_footer.dart';
 
 class InfiniteScrollGrid extends StatelessWidget {
-  const InfiniteScrollGrid(
-    {Key? key,
+  const InfiniteScrollGrid({
     required this.scrollController,
     required this.gridDelegate,
     required this.delegate,
     required this.isLoadingMoreData,
-    }) : super(key: key);
+  });
 
   final ScrollController scrollController;
   final SliverGridDelegate gridDelegate;
@@ -22,17 +21,11 @@ class InfiniteScrollGrid extends StatelessWidget {
       controller: scrollController,
       slivers: [
         SliverGrid(
-          delegate: delegate, 
           gridDelegate: gridDelegate,
-          ),
-          if(!isLoadingMoreData)const SliverToBoxAdapter(
-            child: EmptyFooter())
-            else
-              const SliverToBoxAdapter(
-                child: ProgressIndicatorFooter(),
-                )
-            
-      
+          delegate: delegate,
+        ),
+        if (!isLoadingMoreData) SliverToBoxAdapter(child: EmptyFooter()) else
+          SliverToBoxAdapter(child: ProgressIndicatorFooter())
       ],
     );
   }

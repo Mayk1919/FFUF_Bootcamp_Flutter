@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:pokedex/utilities/global_constants.dart';
 
+/// A loading progress indicator at the bottom of an infinite scroll list.
 class ProgressIndicatorFooter extends StatelessWidget {
-  const ProgressIndicatorFooter({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return const Center(
       child: Padding(
         padding: kProgressIndicatorFooterPadding,
-        child: CircularProgressIndicator(
-          strokeWidth: kProgressIndicatorStrokeWidth,
+        child: SizedBox(
+          child: CircularProgressIndicator(
+              strokeWidth: kProgressIndicatorStrokeWidth),
         ),
       ),
     );

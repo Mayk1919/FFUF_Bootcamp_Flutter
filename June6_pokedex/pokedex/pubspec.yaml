@@ -34,6 +34,7 @@ dependencies:
   charts_flutter: any
   dio: any
   shared_preferences: any
+  json_annotation: ^4.5.0
 
 
   # The following adds the Cupertino Icons font to your application.

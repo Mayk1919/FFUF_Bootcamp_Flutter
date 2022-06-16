@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 
-class SearchWIdget extends StatelessWidget {
-  const SearchWIdget(
-      {Key? key,
-      required this.searchBoxHint,
-      required this.searchCallback,
-      required this.searchFilter,
-      required this.onChangeCallback})
-      : super(key: key);
+class SearchWidget extends StatelessWidget {
+  const SearchWidget({
+    Key? key,
+    this.searchBoxHint,
+    this.searchCallback,
+    this.searchFilter,
+    this.onChangeCallback,
+  }) : super(key: key);
 
-  final String searchBoxHint;
-  final void Function(String) searchCallback;
-  final TextEditingController searchFilter;
-  final void Function(String) onChangeCallback;
+  final String? searchBoxHint;
+  final void Function(String)? searchCallback;
+  final TextEditingController? searchFilter;
+  final void Function(String)? onChangeCallback;
+
   @override
   Widget build(BuildContext context) {
     return TextField(
@@ -20,9 +21,10 @@ class SearchWIdget extends StatelessWidget {
       onChanged: onChangeCallback ?? (text) {},
       controller: searchFilter,
       decoration: InputDecoration(
-          alignLabelWithHint: true,
-          prefixIcon: const Icon(Icons.search),
-          hintText: searchBoxHint),
+        prefixIcon: const Icon(Icons.search),
+        hintText: searchBoxHint,
+      ),
+      onSubmitted: searchCallback,
     );
   }
 }

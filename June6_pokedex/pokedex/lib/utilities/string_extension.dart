@@ -1,19 +1,24 @@
 extension CapExtension on String {
-  String get inCaps => '${this[0].toUpperCase()}';
+  String get inCaps => '${this[0].toUpperCase()}${substring(1)}';
 
   String get inSmallCaps => '${this[0].toLowerCase()}${substring(1)}';
 
-  String get alInCaps => toUpperCase();
+  String get allInCaps => toUpperCase();
 
   String get capitalizeFirstOfEach =>
       split(' ').map((str) => str.inCaps).join(' ');
 }
 
+/// Display Pokemon ID with left-padded zeroes.
+/// e.g. 001, 015, 324
+/// As of this writing, there are 898 Pokemon, so idWidth = 3.
 String formatPokemonId(int id) {
-  const idWIdth = 4;
-  return id.toString().padLeft(idWIdth, '0');
+  const idWidth = 3;
+  return id.toString().padLeft(idWidth, '0');
 }
 
+/// Formats the Pokemon's move name returned by the API.
+/// e.g. razor-wind' becomes 'Razor Wind'.
 String formatPokemonMoveName(String moveName) {
   final words = moveName.split('-').map((e) => e.inCaps).toList();
   final formattedMoveName = words.join(' ');
